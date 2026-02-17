@@ -14,6 +14,7 @@ export interface Product {
   media: MediaFile[]
   description: string
   aiContext?: string
+  thumbnail?: string
 }
 
 export interface Category {
@@ -22,4 +23,5 @@ export interface Category {
   path: string
   subcategories: Category[]
   products: Product[]
+  thumbnail?: string
 }

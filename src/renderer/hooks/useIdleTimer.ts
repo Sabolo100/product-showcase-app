@@ -1,38 +1,59 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 
 interface IdleTimerOptions {
-  idleTime?: number // Time in ms before considered idle
+  idleTime: number // Time in ms before considered idle
   onIdle?: () => void
   onActive?: () => void
 }
 
 export function useIdleTimer(options: IdleTimerOptions) {
-  const {
-    idleTime = 30000, // 30 seconds default
-    onIdle,
-    onActive
-  } = options
+  const { idleTime, onIdle, onActive } = options
 
   const [isIdle, setIsIdle] = useState(false)
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const isIdleRef = useRef(false)
 
-  const resetTimer = () => {
-    if (isIdle) {
+  // Store callbacks in refs to avoid dependency changes
+  const onIdleRef = useRef(onIdle)
+  const onActiveRef = useRef(onActive)
+
+  // Update refs when callbacks change
+  useEffect(() => {
+    onIdleRef.current = onIdle
+    onActiveRef.current = onActive
+  }, [onIdle, onActive])
+
+  // Keep isIdle ref in sync with state
+  useEffect(() => {
+    isIdleRef.current = isIdle
+  }, [isIdle])
+
+  const resetTimer = useCallback(() => {
+    // If was idle, mark as active
+    if (isIdleRef.current) {
+      console.log('[IdleTimer] User became active')
       setIsIdle(false)
-      onActive?.()
+      isIdleRef.current = false
+      onActiveRef.current?.()
     }
 
+    // Clear existing timeout
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current)
     }
 
+    // Set new timeout
     timeoutRef.current = setTimeout(() => {
+      console.log('[IdleTimer] User is now idle')
       setIsIdle(true)
-      onIdle?.()
+      isIdleRef.current = true
+      onIdleRef.current?.()
     }, idleTime)
-  }
+  }, [idleTime]) // Only depends on idleTime now
 
   useEffect(() => {
+    console.log('[IdleTimer] Initializing with idleTime:', idleTime, 'ms')
+
     const events = [
       'mousedown',
       'mousemove',
@@ -46,8 +67,10 @@ export function useIdleTimer(options: IdleTimerOptions) {
     resetTimer()
 
     // Reset timer on any user activity
+    const handleActivity = () => resetTimer()
+
     events.forEach((event) => {
-      document.addEventListener(event, resetTimer)
+      document.addEventListener(event, handleActivity, { passive: true })
     })
 
     return () => {
@@ -56,10 +79,10 @@ export function useIdleTimer(options: IdleTimerOptions) {
       }
 
       events.forEach((event) => {
-        document.removeEventListener(event, resetTimer)
+        document.removeEventListener(event, handleActivity)
       })
     }
-  }, [idleTime, onIdle, onActive])
+  }, [idleTime, resetTimer])
 
   return { isIdle, resetTimer }
 }

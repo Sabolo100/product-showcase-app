@@ -18,6 +18,7 @@ export interface Product {
   media: MediaFile[]
   description: string
   aiContext?: string
+  thumbnail?: string // Base64 data URL of thumb.png
 }
 
 export interface Category {
@@ -26,6 +27,7 @@ export interface Category {
   path: string
   subcategories: Category[]
   products: Product[]
+  thumbnail?: string // Base64 data URL of thumb.png
 }
 
 export interface BrandingConfig {
@@ -52,7 +54,7 @@ const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.gif', '.webp']
 const VIDEO_EXTENSIONS = ['.mp4', '.webm', '.mov', '.avi']
 
 /**
- * Clean folder name for display
+ * Clean folder name for display (fallback if no name.txt)
  * Removes numbered prefixes (001_, 02_, etc.) and suffixes (_done, _TODO, etc.)
  */
 function cleanFolderName(folderName: string): string {
@@ -71,6 +73,49 @@ function cleanFolderName(folderName: string): string {
   cleaned = cleaned.trim().replace(/\s+/g, ' ')
 
   return cleaned
+}
+
+/**
+ * Read display name from name.txt file in folder
+ * Falls back to cleaned folder name if name.txt doesn't exist
+ */
+async function readDisplayName(folderPath: string, folderName: string): Promise<string> {
+  try {
+    const nameFilePath = path.join(folderPath, 'name.txt')
+    const content = await fs.readFile(nameFilePath, 'utf-8')
+    const name = content.trim()
+    if (name) {
+      return name
+    }
+  } catch {
+    // name.txt doesn't exist or is empty, use folder name
+  }
+  return cleanFolderName(folderName)
+}
+
+/**
+ * Load thumbnail image from folder (thumb.png or thumb.jpg)
+ * Returns base64 data URL or undefined if not found
+ */
+async function loadThumbnail(folderPath: string): Promise<string | undefined> {
+  const possibleNames = ['thumb.png', 'thumb.jpg', 'thumb.jpeg']
+
+  for (const filename of possibleNames) {
+    try {
+      const thumbPath = path.join(folderPath, filename)
+      await fs.access(thumbPath)
+
+      const buffer = await fs.readFile(thumbPath)
+      const ext = path.extname(filename).toLowerCase()
+      const mimeType = ext === '.png' ? 'image/png' : 'image/jpeg'
+
+      return `data:${mimeType};base64,${buffer.toString('base64')}`
+    } catch {
+      // Try next filename
+    }
+  }
+
+  return undefined
 }
 
 /**
@@ -180,20 +225,47 @@ async function collectMediaFiles(folderPath: string): Promise<string[]> {
 
 /**
  * Scan a product folder and collect media files
+ * A folder is a product ONLY if it contains a "Photos" subfolder with media files
+ * Direct media files in the folder are ignored (they might be thumbnails)
  */
 async function scanProductFolder(folderPath: string, folderName: string): Promise<Product | null> {
   try {
-    // Collect all media files from folder (only direct children)
-    const allMediaPaths = await collectMediaFiles(folderPath)
+    // Check if Photos subfolder exists - this is the ONLY way to identify a product folder
+    const photosPath = path.join(folderPath, 'Photos')
 
-    // If no media files found, not a product folder
+    try {
+      const photosStat = await fs.stat(photosPath)
+      if (!photosStat.isDirectory()) {
+        return null // Photos exists but is not a directory
+      }
+    } catch {
+      return null // No Photos folder = not a product
+    }
+
+    // Collect all media files from the Photos folder
+    const allMediaPaths = await collectMediaFiles(photosPath)
+
+    // If no media files found in Photos folder, not a valid product
     if (allMediaPaths.length === 0) {
       return null
     }
 
-    // Parse captions if available
-    const captionsPath = path.join(folderPath, 'captions.txt')
-    const captions = await parseCaptionsFile(captionsPath)
+    // Parse captions if available (check both Photos folder and product folder)
+    let captions = new Map<string, { caption?: string; description?: string }>()
+    const captionsInPhotos = path.join(photosPath, 'captions.txt')
+    const captionsInProduct = path.join(folderPath, 'captions.txt')
+
+    try {
+      await fs.access(captionsInPhotos)
+      captions = await parseCaptionsFile(captionsInPhotos)
+    } catch {
+      try {
+        await fs.access(captionsInProduct)
+        captions = await parseCaptionsFile(captionsInProduct)
+      } catch {
+        // No captions file
+      }
+    }
 
     // Parse product description if available
     const docxPath = path.join(folderPath, 'product.docx')
@@ -224,19 +296,29 @@ async function scanProductFolder(folderPath: string, folderName: string): Promis
       }
     })
 
+    // Read display name from name.txt or use cleaned folder name
+    const displayName = await readDisplayName(folderPath, folderName)
+
+    // Load thumbnail if available
+    const thumbnail = await loadThumbnail(folderPath)
+
     return {
       id: folderName,
-      name: cleanFolderName(folderName),
+      name: displayName,
       path: folderPath,
       media,
       description,
-      aiContext
+      aiContext,
+      thumbnail
     }
   } catch (error) {
     console.error(`Error scanning product folder ${folderPath}:`, error)
     return null
   }
 }
+
+// Folders to skip when scanning (not categories or products)
+const SKIP_FOLDERS = ['Photos', 'ASSETS', 'Idle', 'Videos', 'Images', 'CEGINFO']
 
 /**
  * Recursively scan a category folder
@@ -249,6 +331,11 @@ async function scanCategoryFolder(folderPath: string, folderName: string): Promi
     const products: Product[] = []
 
     for (const file of files) {
+      // Skip special folders
+      if (SKIP_FOLDERS.includes(file)) {
+        continue
+      }
+
       const fullPath = path.join(folderPath, file)
 
       if (await isDirectory(fullPath)) {
@@ -272,12 +359,19 @@ async function scanCategoryFolder(folderPath: string, folderName: string): Promi
       return null
     }
 
+    // Read display name from name.txt or use cleaned folder name
+    const displayName = await readDisplayName(folderPath, folderName)
+
+    // Load thumbnail if available
+    const thumbnail = await loadThumbnail(folderPath)
+
     return {
       id: folderName,
-      name: cleanFolderName(folderName),
+      name: displayName,
       path: folderPath,
       subcategories,
-      products
+      products,
+      thumbnail
     }
   } catch (error) {
     console.error(`Error scanning category folder ${folderPath}:`, error)
@@ -294,6 +388,11 @@ export async function scanSourcesFolder(sourcesPath: string): Promise<Category[]
     const categories: Category[] = []
 
     for (const file of files) {
+      // Skip special folders at root level
+      if (SKIP_FOLDERS.includes(file)) {
+        continue
+      }
+
       const fullPath = path.join(sourcesPath, file)
 
       if (await isDirectory(fullPath)) {
@@ -403,12 +502,24 @@ export async function loadBrandingConfig(brandingPath: string): Promise<Branding
 }
 
 /**
- * Load company info (similar to product)
+ * Load company info from CEGINFO folder
+ * Expects: name.txt (company name) and Photos/ folder with images
  */
 export async function loadCompanyInfo(companyInfoPath: string): Promise<Product | null> {
   try {
-    const introPath = path.join(companyInfoPath, 'intro')
-    return await scanProductFolder(introPath, 'Company')
+    // Get folder name for fallback
+    const folderName = path.basename(companyInfoPath)
+
+    // Use scanProductFolder which handles Photos folder and name.txt
+    const product = await scanProductFolder(companyInfoPath, folderName)
+
+    if (product) {
+      console.log('Company info loaded:', product.name, 'with', product.media.length, 'media files')
+    } else {
+      console.log('No company info found at:', companyInfoPath)
+    }
+
+    return product
   } catch (error) {
     console.error('Error loading company info:', error)
     return null
@@ -416,15 +527,52 @@ export async function loadCompanyInfo(companyInfoPath: string): Promise<Product 
 }
 
 /**
- * Load company logo from CompanyInfo folder
- * Looks for company-logo.png or company-logo.jpg
+ * Load idle configuration from Sources/ASSETS/Idle folder
+ * Returns video path and timeout in seconds
  */
-export async function loadCompanyLogo(companyInfoPath: string): Promise<string | null> {
-  const possibleNames = ['company-logo.png', 'company-logo.jpg', 'company-logo.jpeg']
+export async function loadIdleConfig(sourcesPath: string): Promise<{ videoPath: string | null; timeout: number }> {
+  const idleFolderPath = path.join(sourcesPath, 'ASSETS', 'Idle')
+  const defaultTimeout = 60 // Default 60 seconds
+
+  let videoPath: string | null = null
+  let timeout = defaultTimeout
+
+  // Check for idle.mp4
+  try {
+    const videoFile = path.join(idleFolderPath, 'idle.mp4')
+    await fs.access(videoFile)
+    videoPath = `file://${videoFile.replace(/\\/g, '/')}`
+    console.log('Idle video found:', videoFile)
+  } catch {
+    console.log('No idle.mp4 found in ASSETS/Idle folder')
+  }
+
+  // Read timeout from idle_time.txt
+  try {
+    const timeoutFile = path.join(idleFolderPath, 'idle_time.txt')
+    const content = await fs.readFile(timeoutFile, 'utf-8')
+    const parsed = parseInt(content.trim(), 10)
+    if (!isNaN(parsed) && parsed > 0) {
+      timeout = parsed
+      console.log('Idle timeout loaded:', timeout, 'seconds')
+    }
+  } catch {
+    console.log('No idle_time.txt found, using default timeout:', defaultTimeout)
+  }
+
+  return { videoPath, timeout }
+}
+
+/**
+ * Load company logo from Sources/ASSETS folder
+ * Looks for logo.png or logo.jpg
+ */
+export async function loadCompanyLogo(assetsPath: string): Promise<string | null> {
+  const possibleNames = ['logo.png', 'logo.jpg', 'logo.jpeg']
 
   for (const filename of possibleNames) {
     try {
-      const logoPath = path.join(companyInfoPath, filename)
+      const logoPath = path.join(assetsPath, filename)
       await fs.access(logoPath)
 
       const buffer = await fs.readFile(logoPath)
@@ -438,6 +586,6 @@ export async function loadCompanyLogo(companyInfoPath: string): Promise<string |
     }
   }
 
-  console.log('No company logo found in CompanyInfo folder')
+  console.log('No company logo found in Sources/ASSETS folder')
   return null
 }

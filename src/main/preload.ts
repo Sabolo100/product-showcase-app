@@ -9,6 +9,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
   loadBranding: () => ipcRenderer.invoke('load-branding'),
   loadCompanyInfo: () => ipcRenderer.invoke('load-company-info'),
   loadCompanyLogo: () => ipcRenderer.invoke('load-company-logo'),
+  loadIdleConfig: () => ipcRenderer.invoke('load-idle-config'),
   loadApiKeys: () => ipcRenderer.invoke('load-api-keys'),
   getAppPath: () => ipcRenderer.invoke('get-app-path'),
 
@@ -30,6 +31,7 @@ export interface ElectronAPI {
   loadBranding: () => Promise<{ success: boolean; data?: any; error?: string }>
   loadCompanyInfo: () => Promise<{ success: boolean; data?: any; error?: string }>
   loadCompanyLogo: () => Promise<{ success: boolean; data?: string | null; error?: string }>
+  loadIdleConfig: () => Promise<{ success: boolean; data?: { videoPath: string | null; timeout: number }; error?: string }>
   loadApiKeys: () => Promise<{ success: boolean; data?: any; error?: string }>
   getAppPath: () => Promise<{ success: boolean; data?: string; error?: string }>
   saveChatMessage: (message: any) => Promise<{ success: boolean; error?: string }>

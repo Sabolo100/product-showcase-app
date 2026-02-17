@@ -1,7 +1,7 @@
 import { app, BrowserWindow, ipcMain, screen } from 'electron'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { scanSourcesFolder, loadMediaFile, loadBrandingConfig, loadCompanyInfo, loadCompanyLogo } from './fileSystem'
+import { scanSourcesFolder, loadMediaFile, loadBrandingConfig, loadCompanyInfo, loadCompanyLogo, loadIdleConfig } from './fileSystem'
 import {
   initDatabase,
   saveChatMessage,
@@ -145,14 +145,14 @@ ipcMain.handle('load-branding', async () => {
   }
 })
 
-// Load company info
+// Load company info from Sources/ASSETS/CEGINFO
 ipcMain.handle('load-company-info', async () => {
   try {
     const appPath = isDev
       ? path.join(process.cwd(), 'app')
       : path.join(process.resourcesPath, 'app')
 
-    const info = await loadCompanyInfo(path.join(appPath, 'CompanyInfo'))
+    const info = await loadCompanyInfo(path.join(appPath, 'Sources', 'ASSETS', 'CEGINFO'))
     return { success: true, data: info }
   } catch (error) {
     console.error('Error loading company info:', error)
@@ -160,17 +160,32 @@ ipcMain.handle('load-company-info', async () => {
   }
 })
 
-// Load company logo
+// Load company logo from Sources/ASSETS/logo.png
 ipcMain.handle('load-company-logo', async () => {
   try {
     const appPath = isDev
       ? path.join(process.cwd(), 'app')
       : path.join(process.resourcesPath, 'app')
 
-    const logo = await loadCompanyLogo(path.join(appPath, 'CompanyInfo'))
+    const logo = await loadCompanyLogo(path.join(appPath, 'Sources', 'ASSETS'))
     return { success: true, data: logo }
   } catch (error) {
     console.error('Error loading company logo:', error)
+    return { success: false, error: (error as Error).message }
+  }
+})
+
+// Load idle config
+ipcMain.handle('load-idle-config', async () => {
+  try {
+    const appPath = isDev
+      ? path.join(process.cwd(), 'app')
+      : path.join(process.resourcesPath, 'app')
+
+    const config = await loadIdleConfig(path.join(appPath, 'Sources'))
+    return { success: true, data: config }
+  } catch (error) {
+    console.error('Error loading idle config:', error)
     return { success: false, error: (error as Error).message }
   }
 })

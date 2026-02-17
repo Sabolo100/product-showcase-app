@@ -18,14 +18,16 @@ export default function BottomBar() {
 
   return (
     <div className="h-[120px] bg-bg-secondary flex items-center justify-between px-8 shadow-lg">
-      {/* Company Button (Left) */}
+      {/* Company Button (Left) - shows company name from name.txt */}
       <button
         onClick={handleCompanyClick}
         disabled={!companyInfo}
-        className="flex items-center gap-3 px-6 py-3 bg-primary rounded-lg hover:bg-primary-hover transition-colors active:opacity-70 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="flex items-center gap-3 px-6 py-3 bg-primary rounded-lg hover:bg-primary-hover transition-colors active:opacity-70 disabled:opacity-50 disabled:cursor-not-allowed min-w-[200px]"
       >
         <Building2 size={24} />
-        <span className="text-lg font-semibold">{t('nav.company')}</span>
+        <span className="text-lg font-semibold">
+          {companyInfo?.name || t('nav.company')}
+        </span>
       </button>
 
       {/* Category Menu (Center) */}

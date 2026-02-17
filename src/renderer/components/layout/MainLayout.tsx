@@ -1,18 +1,54 @@
-import { useEffect } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import TopBar from './TopBar'
 import BottomBar from './BottomBar'
 import PopupMenu from '../navigation/PopupMenu'
 import MenuBreadcrumb from '../navigation/MenuBreadcrumb'
 import Carousel from '../carousel/Carousel'
 import AIPanel from '../ai/AIPanel'
+import IdleMode from '../ui/IdleMode'
 import { useAIStore } from '../../store/aiStore'
 import { useNavigationStore } from '../../store/navigationStore'
+import { useIdleTimer } from '../../hooks/useIdleTimer'
 import { useTranslation } from 'react-i18next'
 
 export default function MainLayout() {
   const { t } = useTranslation()
   const { isPanelOpen, loadApiKeys } = useAIStore()
   const { selectedProduct } = useNavigationStore()
+
+  // Idle mode state
+  const [idleVideoPath, setIdleVideoPath] = useState<string | null>(null)
+  const [idleTimeout, setIdleTimeout] = useState<number>(60000) // Default 60 seconds
+
+  // Load idle config
+  useEffect(() => {
+    const loadIdleConfig = async () => {
+      try {
+        const result = await window.electronAPI.loadIdleConfig()
+        if (result.success && result.data) {
+          console.log('[Idle] Config loaded:', result.data)
+          setIdleVideoPath(result.data.videoPath)
+          setIdleTimeout(result.data.timeout * 1000) // Convert to ms
+        }
+      } catch (err) {
+        console.error('[Idle] Failed to load config:', err)
+      }
+    }
+    loadIdleConfig()
+  }, [])
+
+  // Idle timer hook
+  const { isIdle, resetTimer } = useIdleTimer({
+    idleTime: idleTimeout,
+    onIdle: () => console.log('[Idle] User is idle'),
+    onActive: () => console.log('[Idle] User is active')
+  })
+
+  // Handle dismiss idle mode
+  const handleDismissIdle = () => {
+    console.log('[Idle] Dismissed by user')
+    resetTimer()
+  }
 
   useEffect(() => {
     // Load API keys on mount
@@ -65,6 +101,13 @@ export default function MainLayout() {
 
       {/* Popup Menu */}
       <PopupMenu />
+
+      {/* Idle Mode Overlay */}
+      <IdleMode
+        isIdle={isIdle}
+        videoPath={idleVideoPath}
+        onDismiss={handleDismissIdle}
+      />
     </div>
   )
 }
