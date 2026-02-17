@@ -1,0 +1,47 @@
+{
+  "app": {
+    "title": "Produktpräsentation"
+  },
+  "nav": {
+    "home": "Startseite",
+    "back": "Zurück",
+    "company": "Unternehmen"
+  },
+  "carousel": {
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "fullscreen": "Vollbild",
+    "close": "Schließen"
+  },
+  "ai": {
+    "title": "AI Assistent",
+    "placeholder": "Stellen Sie eine Frage...",
+    "send": "Senden",
+    "clear": "Löschen",
+    "thinking": "Denkt nach...",
+    "error": "Fehler beim Abrufen der Antwort",
+    "unavailable": "AI-Assistent derzeit nicht verfügbar",
+    "keyboard": "Tastatur",
+    "voice": "Spracheingabe",
+    "voiceInput": "Klicken Sie, um die Spracheingabe zu starten",
+    "voiceRecording": "Aufnahme... Klicken Sie zum Stoppen",
+    "voiceProcessing": "Verarbeitung..."
+  },
+  "session": {
+    "timeout": "Sitzungszeitüberschreitung",
+    "timeoutMessage": "Sie waren inaktiv. Die Sitzung wird in {{seconds}} Sekunden zurückgesetzt.",
+    "continue": "Fortsetzen",
+    "reset": "Zurücksetzen"
+  },
+  "error": {
+    "loadFailed": "Laden fehlgeschlagen",
+    "retry": "Erneut versuchen",
+    "noContent": "Kein Inhalt verfügbar"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "ok": "OK"
+  }
+}

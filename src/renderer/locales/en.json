@@ -1,0 +1,47 @@
+{
+  "app": {
+    "title": "Product Showcase"
+  },
+  "nav": {
+    "home": "Home",
+    "back": "Back",
+    "company": "Company"
+  },
+  "carousel": {
+    "previous": "Previous",
+    "next": "Next",
+    "fullscreen": "Fullscreen",
+    "close": "Close"
+  },
+  "ai": {
+    "title": "AI Assistant",
+    "placeholder": "Ask a question...",
+    "send": "Send",
+    "clear": "Clear",
+    "thinking": "Thinking...",
+    "error": "Error getting response",
+    "unavailable": "AI Assistant currently unavailable",
+    "keyboard": "Keyboard",
+    "voice": "Voice Input",
+    "voiceInput": "Click to start voice input",
+    "voiceRecording": "Recording... Click to stop",
+    "voiceProcessing": "Processing..."
+  },
+  "session": {
+    "timeout": "Session Timeout",
+    "timeoutMessage": "You have been inactive. Session will reset in {{seconds}} seconds.",
+    "continue": "Continue",
+    "reset": "Reset"
+  },
+  "error": {
+    "loadFailed": "Failed to load",
+    "retry": "Retry",
+    "noContent": "No content available"
+  },
+  "common": {
+    "loading": "Loading...",
+    "close": "Close",
+    "cancel": "Cancel",
+    "ok": "OK"
+  }
+}

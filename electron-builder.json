@@ -1,0 +1,36 @@
+{
+  "appId": "com.arworks.product-showcase",
+  "productName": "Product Showcase",
+  "directories": {
+    "output": "release",
+    "buildResources": "build"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*",
+    "app/**/*"
+  ],
+  "extraResources": [
+    {
+      "from": "app/models",
+      "to": "app/models",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "build/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "Product Showcase"
+  }
+}

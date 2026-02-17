@@ -1,0 +1,92 @@
+/* Touch-specific styles */
+
+/* Disable double-tap zoom */
+* {
+  touch-action: manipulation;
+}
+
+/* Touch feedback */
+.touch-feedback {
+  transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.touch-feedback:active {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
+/* Larger touch targets */
+.touch-target {
+  min-width: 100px;
+  min-height: 100px;
+  padding: 12px;
+}
+
+.touch-target-lg {
+  min-width: 120px;
+  min-height: 120px;
+  padding: 16px;
+}
+
+/* Button touch states */
+button,
+a,
+[role="button"] {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Only apply scale transform to buttons that don't have other transforms */
+button.touch-scale:active,
+a.touch-scale:active,
+[role="button"].touch-scale:active {
+  transform: scale(0.95);
+}
+
+/* Disable context menu on long press */
+img,
+video {
+  -webkit-touch-callout: none;
+}
+
+/* Smooth touch scrolling */
+.touch-scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}
+
+/* Touch swipe area */
+.swipe-area {
+  touch-action: pan-x;
+  user-select: none;
+}
+
+/* Touch ripple effect */
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.touch-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.touch-ripple::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  pointer-events: none;
+}
+
+.touch-ripple:active::after {
+  animation: ripple 0.6s ease-out;
+}

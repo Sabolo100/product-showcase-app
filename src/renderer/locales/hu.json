@@ -1,0 +1,47 @@
+{
+  "app": {
+    "title": "Termékbemutató"
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "back": "Vissza",
+    "company": "Cég"
+  },
+  "carousel": {
+    "previous": "Előző",
+    "next": "Következő",
+    "fullscreen": "Teljes képernyő",
+    "close": "Bezárás"
+  },
+  "ai": {
+    "title": "AI Asszisztens",
+    "placeholder": "Tegyen fel egy kérdést...",
+    "send": "Küldés",
+    "clear": "Törlés",
+    "thinking": "Gondolkodik...",
+    "error": "Hiba a válasz lekérése során",
+    "unavailable": "AI Asszisztens jelenleg nem elérhető",
+    "keyboard": "Billentyűzet",
+    "voice": "Hangbemenet",
+    "voiceInput": "Kattintson a hangbemenet indításához",
+    "voiceRecording": "Felvétel... Kattintson a leállításhoz",
+    "voiceProcessing": "Feldolgozás..."
+  },
+  "session": {
+    "timeout": "Munkamenet lejárt",
+    "timeoutMessage": "Inaktív volt. A munkamenet {{seconds}} másodperc múlva visszaáll.",
+    "continue": "Folytatás",
+    "reset": "Visszaállítás"
+  },
+  "error": {
+    "loadFailed": "Betöltés sikertelen",
+    "retry": "Újra",
+    "noContent": "Nincs elérhető tartalom"
+  },
+  "common": {
+    "loading": "Betöltés...",
+    "close": "Bezárás",
+    "cancel": "Mégse",
+    "ok": "OK"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "background": {
+    "type": "color",
+    "value": "#0A0E1A"
+  },
+  "colors": {
+    "primary": "#0066FF",
+    "primaryHover": "#0052CC",
+    "bgPrimary": "#0A0E1A",
+    "bgSecondary": "#151B2D",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#B0B8CC"
+  },
+  "font": {
+    "family": "Inter",
+    "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  }
+}
