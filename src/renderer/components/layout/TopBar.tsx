@@ -36,9 +36,9 @@ export default function TopBar() {
   }
 
   return (
-    <div className="h-[100px] bg-bg-secondary flex items-center justify-between px-8 shadow-lg">
+    <div className="h-[100px] bg-bg-secondary flex items-center justify-between px-8 shadow-lg relative">
       {/* App Logo / Title */}
-      <div className="flex items-center h-full min-w-[200px]">
+      <div className="flex items-center h-full min-w-[200px] z-10">
         {config?.logoData ? (
           <img
             src={config.logoData}
@@ -52,19 +52,19 @@ export default function TopBar() {
         )}
       </div>
 
-      {/* Company Logo (center) */}
-      <div className="flex items-center justify-center h-full">
+      {/* Company Logo (absolute center of full width) */}
+      <div className="absolute left-1/2 -translate-x-1/2 h-full flex items-center">
         {companyLogo && (
           <img
             src={companyLogo}
             alt="Company Logo"
-            className="h-[70px] max-w-[300px] object-contain"
+            className="h-[85px] max-w-[400px] object-contain"
           />
         )}
       </div>
 
       {/* Language Selector */}
-      <div className="relative min-w-[200px] flex justify-end">
+      <div className="relative min-w-[200px] flex justify-end z-10">
         <button
           onClick={() => setShowLanguageMenu(!showLanguageMenu)}
           className="flex items-center gap-2 px-5 py-2 bg-primary rounded-lg hover:bg-primary-hover transition-colors active:opacity-70"

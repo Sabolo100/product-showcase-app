@@ -46,7 +46,15 @@ export default function MediaViewer({ media }: MediaViewerProps) {
   const fileUrl = getFileUrl(media.path)
 
   return (
-    <div className="w-full h-full bg-bg-primary rounded-2xl overflow-hidden shadow-2xl flex items-center justify-center">
+    <div
+      className="bg-bg-primary rounded-2xl shadow-2xl flex items-center justify-center relative"
+      style={{
+        width: '100%',
+        height: '100%',
+        maxHeight: '100%',
+        overflow: 'hidden'
+      }}
+    >
       {isLoading && !hasError && (
         <div className="absolute inset-0 flex items-center justify-center">
           <LoadingSpinner size="lg" />
@@ -59,7 +67,12 @@ export default function MediaViewer({ media }: MediaViewerProps) {
         <img
           src={fileUrl}
           alt={media.caption || media.filename}
-          className={`w-full h-full object-contain ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
+          style={{
+            maxWidth: '100%',
+            maxHeight: '100%',
+            objectFit: 'contain'
+          }}
+          className={`${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
           onLoad={handleLoad}
           onError={handleError}
         />

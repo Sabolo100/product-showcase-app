@@ -61,7 +61,33 @@ export default function Carousel() {
       <FullscreenViewer />
 
       {/* Carousel */}
-      <div className="flex-1 relative">
+      <div className="flex-1 relative overflow-hidden">
+        {/* Navigation Buttons - positioned outside swiper for consistent visibility */}
+        {media.length > 1 && (
+          <>
+            <button
+              onClick={goPrev}
+              disabled={currentIndex === 0}
+              className="absolute left-8 top-1/2 -translate-y-1/2 z-20
+                         p-4 bg-bg-secondary rounded-full shadow-xl
+                         hover:bg-primary disabled:opacity-30 disabled:cursor-not-allowed
+                         active:opacity-60 transition-opacity duration-100"
+            >
+              <ChevronLeft size={40} />
+            </button>
+            <button
+              onClick={goNext}
+              disabled={currentIndex === media.length - 1}
+              className="absolute right-8 top-1/2 -translate-y-1/2 z-20
+                         p-4 bg-bg-secondary rounded-full shadow-xl
+                         hover:bg-primary disabled:opacity-30 disabled:cursor-not-allowed
+                         active:opacity-60 transition-opacity duration-100"
+            >
+              <ChevronRight size={40} />
+            </button>
+          </>
+        )}
+
         <Swiper
           onSwiper={(swiper) => {
             swiperRef.current = swiper
@@ -87,17 +113,15 @@ export default function Carousel() {
           }}
           modules={[EffectCoverflow, Pagination]}
           className="w-full h-full"
-          style={{
-            paddingTop: '40px',
-            paddingBottom: '80px'
-          }}
         >
           {media.map((item, index) => (
             <SwiperSlide
               key={item.id}
+              className="!flex !items-center !justify-center"
               style={{
                 width: '60%',
-                maxWidth: '800px'
+                maxWidth: '800px',
+                height: '100%'
               }}
             >
               <div
@@ -109,41 +133,14 @@ export default function Carousel() {
                     swiper.slideTo(index)
                   }
                 }}
-                className="w-full h-full cursor-pointer"
+                className="w-full cursor-pointer flex items-center justify-center"
+                style={{ height: 'calc(100% - 80px)' }}
               >
                 <MediaViewer media={item} />
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-
-        {/* Navigation Buttons - positioned with flexbox wrapper to avoid transform conflicts */}
-        {media.length > 1 && (
-          <>
-            <div className="absolute left-8 top-0 bottom-0 z-10 flex items-center">
-              <button
-                onClick={goPrev}
-                disabled={currentIndex === 0}
-                className="p-4 bg-bg-secondary rounded-full shadow-xl
-                           hover:bg-primary disabled:opacity-30 disabled:cursor-not-allowed
-                           active:opacity-60 transition-opacity duration-100"
-              >
-                <ChevronLeft size={40} />
-              </button>
-            </div>
-            <div className="absolute right-8 top-0 bottom-0 z-10 flex items-center">
-              <button
-                onClick={goNext}
-                disabled={currentIndex === media.length - 1}
-                className="p-4 bg-bg-secondary rounded-full shadow-xl
-                           hover:bg-primary disabled:opacity-30 disabled:cursor-not-allowed
-                           active:opacity-60 transition-opacity duration-100"
-              >
-                <ChevronRight size={40} />
-              </button>
-            </div>
-          </>
-        )}
       </div>
 
       {/* Caption */}

@@ -2,7 +2,7 @@ import { ChevronRight, Home } from 'lucide-react'
 import { useNavigationStore } from '../../store/navigationStore'
 
 export default function MenuBreadcrumb() {
-  const { breadcrumb, selectedProduct, goHome } = useNavigationStore()
+  const { breadcrumb, selectedProduct, goHome, navigateToBreadcrumbLevel } = useNavigationStore()
 
   if (breadcrumb.length === 0 && !selectedProduct) return null
 
@@ -18,7 +18,12 @@ export default function MenuBreadcrumb() {
       {breadcrumb.map((item, index) => (
         <div key={index} className="flex items-center gap-2">
           <ChevronRight size={20} />
-          <span className="text-lg">{item}</span>
+          <button
+            onClick={() => navigateToBreadcrumbLevel(index)}
+            className="text-lg hover:text-text-primary hover:underline transition-colors touch-feedback px-1 py-0.5 rounded"
+          >
+            {item}
+          </button>
         </div>
       ))}
 

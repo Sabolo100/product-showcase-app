@@ -16,47 +16,48 @@ export default function BottomBar() {
     }
   }
 
+  // Uniform button style for all menu buttons
+  const buttonClass = "h-[70px] min-w-[140px] px-5 flex items-center justify-center gap-2 rounded-lg transition-colors active:opacity-70"
+
   return (
-    <div className="h-[120px] bg-bg-secondary flex items-center justify-between px-8 shadow-lg">
-      {/* Company Button (Left) - shows company name from name.txt */}
+    <div className="h-[120px] bg-bg-secondary flex items-center justify-evenly px-4 shadow-lg">
+      {/* Company Button - shows company name from name.txt */}
       <button
         onClick={handleCompanyClick}
         disabled={!companyInfo}
-        className="flex items-center gap-3 px-6 py-3 bg-primary rounded-lg hover:bg-primary-hover transition-colors active:opacity-70 disabled:opacity-50 disabled:cursor-not-allowed min-w-[200px]"
+        className={`${buttonClass} bg-primary hover:bg-primary-hover disabled:opacity-50 disabled:cursor-not-allowed`}
       >
-        <Building2 size={24} />
-        <span className="text-lg font-semibold">
+        <Building2 size={20} />
+        <span className="text-sm font-semibold">
           {companyInfo?.name || t('nav.company')}
         </span>
       </button>
 
-      {/* Category Menu (Center) */}
-      <div className="flex-1 flex items-center justify-center gap-4 mx-8">
-        {categories.length > 0 ? (
-          categories.map((category) => (
-            <button
-              key={category.id}
-              onClick={() => {
-                navigateToCategory(category)
-                toggleMenu()
-              }}
-              className="px-6 py-3 bg-bg-primary rounded-lg hover:bg-primary transition-colors active:opacity-70"
-            >
-              <span className="text-lg font-semibold">{category.name}</span>
-            </button>
-          ))
-        ) : (
-          <p className="text-text-secondary text-lg">{t('error.noContent')}</p>
-        )}
-      </div>
+      {/* Category Buttons */}
+      {categories.length > 0 ? (
+        categories.map((category) => (
+          <button
+            key={category.id}
+            onClick={() => {
+              navigateToCategory(category)
+              toggleMenu()
+            }}
+            className={`${buttonClass} bg-bg-primary hover:bg-primary`}
+          >
+            <span className="text-sm font-semibold">{category.name}</span>
+          </button>
+        ))
+      ) : (
+        <p className="text-text-secondary text-sm">{t('error.noContent')}</p>
+      )}
 
-      {/* AI Button (Right) */}
+      {/* AI Button */}
       <button
         onClick={togglePanel}
-        className="flex items-center gap-3 px-6 py-3 bg-primary rounded-lg hover:bg-primary-hover transition-colors active:opacity-70"
+        className={`${buttonClass} bg-primary hover:bg-primary-hover`}
       >
-        <MessageSquare size={24} />
-        <span className="text-lg font-semibold">{t('ai.title')}</span>
+        <MessageSquare size={20} />
+        <span className="text-sm font-semibold">Ask AI</span>
       </button>
     </div>
   )

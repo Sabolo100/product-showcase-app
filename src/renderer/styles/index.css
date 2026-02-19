@@ -66,3 +66,23 @@ body {
 
 /* Font loading */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Swiper carousel overrides - ensure proper height handling */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination {
+  bottom: 20px !important;
+}
