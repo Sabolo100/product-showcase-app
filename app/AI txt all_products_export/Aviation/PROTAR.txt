@@ -1,0 +1,24 @@
+Kategória: Aviation
+Termék: PROTAR
+
+Excellent training solution for modern anti-aircraft systems:
+-Gas turbine-powered UAV for threat simulation and advanced training, also available as a standalone drone system
+-Designed with further development potential for SEAD decoy and loitering munition roles
+-Formation flight capability
+-Modular payloads: radar reflectors, IR, smoke, MDI
+-Rugged, all-weather design for land and maritime use
+-Catapult launch\& parachute recovery
+
+Key Features:
+- Wingspan: 2.3 m
+- Length: 2.5 m
+- Engine: 400 N Jet Engine
+- Speed range: 100–500 km/h
+- Radio range: 75 km
+- Endurance: 60 min
+- Op. Threshold: 6000 m
+- MTOW: 65 kg
+- Payload capacity: 5 kg
+- Launch: Catapult
+- Recovery: Parachute
+- Augmentation: Luneburg Lens, ADSB, Smoke, IR, Acoustic MDI

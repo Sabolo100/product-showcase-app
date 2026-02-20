@@ -1,0 +1,13 @@
+Kategória: C4ISR
+Termék: SanIT
+
+SanIT helps prevent security breaches coming from outside sources including physical media or data transfer by establishing an airgap between the entry point to protected systems and the origin of the data. By analyzing the data and detecting malicious contents, SanIT clears all media or packets before they clould enter an environment where they could activate and cause an incident.
+
+-The solution is available both in a small form-factor hardware format and as a software, to integrate seamlessly into any environment from Headquarters to Remote Sites or as a handheld part of Smart Soldier kits in small intel recovery and reconnaissance teams.
+-SanIT operates with a constantly updated database of malicious executables and code injections, detecting their signatures via deep inspection of files in removable media, booby-trap devices or network transferred data packages. Once detected, SanIT removes and quarantines the malicious data, encapsulating it in a separated packet that is neutralized but -still can be used for analysis, forensics and reverse-engineering purposes to reveal the threat and potential effects of the malicious files and provide an edge over the attackers by setting up defenses on other perimeters where this code could penetrate the systems defenses.
+-SanIT is a dual-use technology for both field- and back-office use, bolstering defenses against the most commonly successful attacks such as phishing and social engineering on the civilian- or back-office side, while also serving as a quick and easy-to-use tool for reconnaissance teams on the field who gather useful intel from captured devices and media of adversaries, helping efficient and safe forwarding to forensics teams on the go, without the risk of compromising the mission critical C2 or C4ISR systems.
+
+Key Features:
+- Form-factor:: Options available for handheld, vehicle built-in and desktop hardware, including ruggedized casings
+- Deployment:: Hardware or Software deployment, Virtualization
+- Key Features:: Malicious file detection, Threat Prevention, Data Sanitization, Captured Intel encapsulation, Media and File transfer airgap

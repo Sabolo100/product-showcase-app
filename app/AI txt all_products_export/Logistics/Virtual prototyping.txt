@@ -1,0 +1,20 @@
+Kategória: Logistics
+Termék: Virtual prototyping
+
+Simulation & testing industrial automation
+
+Fields of expertise: 
+-automotive aerospace, space, composite, defence, healthcare, energy industry (renewable, oil and gas), agriculture, industrial
+-Simulation: FEA, CFD, EMAG, 1D, Fatigue
+-Industrial automation: individual single-purpose machines, semi- and fully automated assembly solutions, production technology development
+-Simulation software distribution and training centre of Ansys, Moldex3D, Dante, Particleworks, CFturbo, AnalySwift
+-Research, Development and Innovation, as well as education
+
+Key Features:
+-High-end engineering knowledge in composites
+-Application of new technologies in the heavy-duty industry:
+-Riveting, welding, gluing
+-Virtual validation and verification
+-Method development using AI
+-Quick and effective concept creation in early phase of product development, without physical testing in prototyping phase
+-Universal testing machines for fatigue testing and material characterization

@@ -1,0 +1,15 @@
+Kategória: KEY FEATURES
+Termék: CMS
+
+KEY FEATURES
+
+In the complex environment, not only tasks are practiced, but also the communication and cooperation between different organizations.
+
+CMS includes several subsystems:
+    • constructive and virtual simulators,
+    • replicas of real systems, such as an Early Warning Monitoring system,
+    • on-board reconnaissance software,
+    • life detectors etc.
+
+
+Using data exchange gateways all components see a common virtual environment and exchange data and events.

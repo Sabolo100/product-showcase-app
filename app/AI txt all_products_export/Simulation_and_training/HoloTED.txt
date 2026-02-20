@@ -1,0 +1,22 @@
+Kategória: Simulation_and_training
+Termék: HoloTED
+
+HoloTED is an advanced XR training and simulation system that enables safe and realistic practice of assembling, disassembling, and maintaining tactical equipment and combat vehicles. 
+-The system can fully replicate existing or planned assembly, logistics, or vehicle maintenance processes based on real 3D models (.fbx, .obj, .dae, .glb formats supported).
+
+With the HoloTED editor, scenarios can be built easily using a simple drag-and-drop method. The system allows the integration of work instructions, takt times, voice commands, warnings, images, and videos, enabling the creation of complex defense industry assembly processes without any programming knowledge.
+-The XR headset is capable of tracking hand movements without controllers or additional sensors, making the simulation even more lifelike. Users can progress step-by-step through the training phase with visual and audio guidance, while also receiving ergonomic warnings in case of unsafe working positions (e.g., avoiding overhead work).
+-At the end of the simulation, the system provides a detailed evaluation of performance, time results, efficiency, and takt time compliance. Route analysis is also available (e.g., in the form of a spaghetti diagram). After the practical training, an examination phase is available, which assesses readiness without any assisting functions.
+-HoloTED’s Mixed Reality (MR) feature makes it possible to display equipment or vehicles that have not yet been delivered, directly in the real environment. Existing processes and scenarios can be easily modified within the editor, enabling rapid testing of new military technology solutions and layouts.
+
+Key Features:
+- Model Formats: .fbx, .obj, .dae, .glb
+- Supported Media Content: Images (.jpg, .png), videos (.mp4), voice commands (.wav, .mp3)
+- Interaction: Hand-tracking (controller-free operation)
+- Editor Platform: Windows PC application (Windows 10 or newer)
+- Ergonomic Warnings: Yes
+- Measured Data: Time tracking, takt time compliance, number of errors, efficiency
+- MR Support: Yes – digital models placed in the real environment
+- Exam Mode: Yes – without assisting functions
+- System Requirements: Min. Meta Quest 2 or similar VR headset
+- Recommended Working Area: Minimum 5 x 5 meters of free space

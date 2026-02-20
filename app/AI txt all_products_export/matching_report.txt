@@ -1,0 +1,23 @@
+=== AI.TXT MATCHING REPORT - FINAL ===
+Generated: 2026. febr. 19., Cs 11:16:16
+
+Total ai.txt files created: 102
+
+=== STILL UNMATCHED TXT FILES (2) ===
+R.A.P.T.O.R – Tactical Vehicle Family (ez egy kategória, nem egy termék)
+UAV Command and Electronic Warfare Platform (nincs ilyen termék mappa)
+
+=== PRODUCTS WITHOUT AI.TXT ===
+CEGINFO
+Ferro_tool
+Guardian
+HOLOKIT
+HYDRA
+MVA MOBILE COMMUNICATION PLATFORM
+NATURTEX
+RADIATION AND GAS DETECTORS
+Reaper
+SKILLTOOLKIT LIVE
+SSS_Loitering_MINI
+VIPER
+WP

@@ -1,12 +1,9 @@
-import { useTranslation } from 'react-i18next'
-
 interface LoadingSpinnerProps {
   size?: 'sm' | 'md' | 'lg'
   message?: string
 }
 
 export default function LoadingSpinner({ size = 'md', message }: LoadingSpinnerProps) {
-  const { t } = useTranslation()
 
   const sizeClasses = {
     sm: 'w-8 h-8 border-2',

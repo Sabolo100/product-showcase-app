@@ -1,0 +1,8 @@
+Kategória: Ground Vehices
+Termék: KML, IFR, IFD
+
+The KML. IFR and IFD vehicles are special members of the Komondor light armour vehicle family with interchangeable superstructure system. They are special purpose first response vehicles dedicated to performing specific tasks during CBRN/HazMat related incidents.
+-The crew of the Detection-Identification-Monitoring vehicle gathers the first accurate information on a HazMat-related incident by entering the hot zone with the appropriate equipment.
+-The Laboratory Vehicle takes position outside the hot zone fully prepared and equipped for the on-site analyzation and evaluation of the samples gathered either by the DIM teams or its own crew.
+-The CBRN-E Reconnaissance Vehicle is to provide intervening law enforcement personnel, dealing with CBRN-E related tasks, with the appropriate equipment and working conditions.
+-The main purpose of the CBRN-E Decontamination Vehicle is the on-site decontamination of intervening personnel and their equipment after the execution of CBRN-E related tasks.

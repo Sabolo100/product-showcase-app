@@ -1,0 +1,11 @@
+Kategória: Small arms
+Termék: AGS-15
+
+This non-lethal pistol was made for home defence.
+It is a 2 shots rubber bullet pistol that use 15 mm rubber bullet and 9 mm PAK signal ammunition.
+
+Key Features:
+- Calibre: 15 mm rubber bullet /9 mm PAK alarm cartridge
+- Kinetic energy up to: 100 Joules (determined by end user)
+- Barrel length: 40 mm
+- Effective range: 10 – 15 m

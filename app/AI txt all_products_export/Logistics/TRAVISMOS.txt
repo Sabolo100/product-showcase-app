@@ -1,0 +1,22 @@
+Kategória: Logistics
+Termék: TRAVISMOS
+
+TRAVISMOS is a next-generation, mobile military training platform that delivers immersive, data-driven simulation combined with real-time monitoring of trainee well-being. 
+
+-Designed for rapid deployment and modular scalability, TRAVISMOS supports multi-role, multi-weapon training for individuals and squads in a wide range of operational scenarios.
+
+The system integrates advanced vital signs monitoring using contactless radar sensors and smart textiles to track physiological and cognitive indicators—such as heart rate, breathing, and stress levels—without disrupting movement or immersion. This enables adaptive training, real-time feedback, and long-term performance analysis.
+
+At its core, TRAVISMOS features a high-fidelity simulation engine, realistic weapon replicas, and authentic sound systems to replicate battlefield conditions and enhance situational awareness. 
+
+-All components are housed in foldable, container-based units that are easy to transport and set up with minimal infrastructure.
+
+-TRAVISMOS provides a comprehensive, future-ready training ecosystem that enhances readiness, supports health and safety, and enables agile, mission-focused training anywhere it's needed.
+
+-As a European Defence Fund (EDF) project it was live tested by both the Hungarian and Slovenian Defence Forces.
+
+Key Features:
+- Immersive Simulation Training: Delivers high-fidelity, scenario-based military training using realistic weapon replicas, battlefield acoustics, and advanced performance analytics.
+- Real-Time Vital Signs Monitoring: Utilizes contactless and wearable sensors to track physiological and cognitive states, enabling adaptive training and health-aware performance evaluation.
+- Modular &amp; Mobile Deployment: Housed in foldable, self-contained containers for rapid setup in any environment with minimal infrastructure requirements.
+- Sustainable, Off-Grid Operation: Integrated renewable energy systems ensure full training capability with reduced environmental impact and no reliance on external power sources.

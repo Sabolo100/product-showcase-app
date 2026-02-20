@@ -1,0 +1,22 @@
+Kategória: Logistics
+Termék: Trafficapture TC-108
+
+-Day and night mode
+-Speed measurement in a stationary position and from a moving car
+-User-friendly portable display (tablet)
+-High resolution sharp image
+-Speed measuring over 1000 m
+
+Key Features:
+- Frame rate: 50 frames/s
+- Sensor type: 1920 × 1080 pixels; global shutter CMOS
+- Image format: JPEG
+- Optical zoom: 36x, motorized
+- Field if view (horizontal): 2.0°–52.0°
+- LED type: IR 850nm (1.1ms)
+- Distance range	min.: 15 m; max.: 1700 m
+- License plate is readable: >220 m (daytime); >150 m (nighttime)
+- Wavelength: 905 nm
+- Pulse firing rate	max.: 3200 Hz
+- Type: Industrial tablet
+- Size: 10.1 inch (diagonal)

@@ -1,0 +1,22 @@
+Kategória: C4ISR
+Termék: Otaku
+
+Otaku is a complex environment that models both the physical and digital elements of a manufacturing process.
+
+Physical parts: factory floor with conveyor belts, automated robotic arms, PLC and status indicators.
+
+Digital parts: different servers, webpage, databases, firewalls, workstation. the systems contain strategically located vulnerabilities.
+
+While using Otaku Platforms, two teams compete against each other per table, with the goal to exploit vulnerabilities in the opponent’s system, penetrate the team’s defenses and disable the PLC and with that, the whole factory. In the meantime, each team has to defend their own system to realistically simulate an open cyberwarfare environment for critical infrastructure.
+
+Otaku builds hands-on knowledge in Forensics (mainly network), linux operation, network operation and security, web security, basic privilege escalation and lateral movement techniques. The default training program consists of 7 levels (attack and defence together).
+-Trainers: Depending on the participants' background, one mentor is assigned per table to help with the exercises.
+-Trainees: 2 Teams per table, with Teams of 2-4 people.
+-Preliminary qualifications: Basic programming or networking experience is useful, for at least one person per team.
+-Otaku is the perfect solution to enhance Cyberdefence capabilities by training new experts and evaluating or further building the skills of existing Teams. With its mobile nature, it can be carried to any point of the globe, to establish complex training scenarios where both conventional warfare- and cyberwarfare scenarios are simulated, or where cyber-range availability is limited, thus reducing the costs of cyber-range exercises for personnel who stationed far from such sites.
+
+Key Features:
+- Hardware:: Small, mobile, office table sized platform with all cyber-physical elements to simulate an IT/OT environment
+- Training scenarios:: Red &amp; Blue Team work, simulating OPFOR and Defense, Forensics, Basic- to Expert Trainings, Skill Evaluations, with custom hardware configurations and scenario options available
+- OT Elements:: Servo- and Motor Robotics, Conveyors, Sensors, Lights, Switches and SCADA PLC systems, Dummy Load/Product
+- IT Elements:: Simulated traditional- or advanced security maturity environments, Networks, Interfaces, Operations controls, Legacy systems

@@ -1,0 +1,14 @@
+Kategória: C4ISR
+Termék: PszichoInt
+
+PszichoInt is an AI-driven psychological assessment tool that helps distribute knowledge of experts to hundreds or even thousands of people in times of disasters or active duty.
+
+Due to its Dual-use capabilities, PszichoInt can be used to help civilians during disaster relief, pinpointing those who need immediate help to provide focused aid and enhance the availability of healthcare to thousands with just a few doctors being on site.
+
+-In militaries, the performance of active-duty personnel needs to be maintained in both physical- and mental forms, so tending to the psyche of large military forces can be a challenge for many countries, but with PszichoInt, the mental health checkups to determine their potential performance- and even risk can become an automated regular exercise, directing expert help to those soldiers who were affected by shock, depression or other negative effects which might compromise their performance during missions.
+-Every soldier experiences fear and stress on the field, every soldier reacts to it differently, the success of a mission depends on strong and able soldiers, thus the physically invisible risk is a factor that needs to be revealed and handled before they’d be sent out for another mission. These risks currently require expert psychologists or the soldier themselves to declare, but with PszichoInt the checkups are quick and scalable to any army size, reducing costs and non-revealed cases that would eventually result in inefficiencies or incidents during active duty.
+-PszichoInt uses multiple methodologies to execute these checkups from short daily routine tests with mixed questionnaires, to providing a silent but always available channel to ask for help. Enhanced by AI, these questionnaires are not just directly evaluated, but tailored to each individual to reveal anomalies, deterioration or quick changes in their psyche. 
+-The reliable system is an assistance tool to free up doctors and enable them to review results from thousands of personnel or civilians, with focused or filtered reports to identify those who need immediate help.
+
+Key Features:
+- Key Features:: Identify psyche changes-, deterioration- or anomalies, Pinpoint emergencies for doctors among thousands of evaluations, Historical analysis of checkups, Provide a routine mental checkup and an always available channel to call for aid, Dual-use applications for disaster-relief, Keep performance consistent by handling mental health alongside physical health, trainings and fitness, Enhance the reach of doctors, Reduce the costs and increase efficiency of disaster relief

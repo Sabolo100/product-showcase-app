@@ -1,0 +1,13 @@
+Kategória: C4ISR
+Termék: Cyber-physical system security
+
+Cyber-physical systems are not always built with security in focus, and these hybrid systems are threatened by being connected to a public network.
+
+Full-stack penetration testing is vital for devices that are to be used in military operations – whether they are small IoT devices, telecommunication tools, drones, vehicles or even whole facilities. We are qualified to test traditional IT infrastructure, cyber-physical or OT infrastructure, with external and internal evaluation in each case.
+
+We provide black box (zero-knowledge testing), gray box (testing from the perspective of an authorized user or testing with internal knowledge about the systems) and white box testing (analysis of the infrastructure components, applications and their configuration) as necessary.
+
+Key Features:
+- Clearances: NATO (secret), EU (secret), Hungarian national clearance (top secret)
+- Certs: OSCP, CREST, GPEN, CEH, ISO 9001, ISO 27001
+- Areas: hardware, smart devices, IoT, embedded devices, website, web app, mobile app, desktop app, API / backend, infrastructure and network, security design review etc.

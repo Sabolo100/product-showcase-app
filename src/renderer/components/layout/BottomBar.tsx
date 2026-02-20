@@ -8,7 +8,7 @@ export default function BottomBar() {
   const { t } = useTranslation()
   const { categories, companyInfo } = useAppStore()
   const { togglePanel } = useAIStore()
-  const { navigateToCategory, toggleMenu, navigateToProduct } = useNavigationStore()
+  const { navigateToCategory, navigateToProduct } = useNavigationStore()
 
   const handleCompanyClick = () => {
     if (companyInfo) {
@@ -20,7 +20,7 @@ export default function BottomBar() {
   const buttonClass = "h-[70px] min-w-[140px] px-5 flex items-center justify-center gap-2 rounded-lg transition-colors active:opacity-70"
 
   return (
-    <div className="h-[120px] bg-bg-secondary flex items-center justify-evenly px-4 shadow-lg">
+    <div className="h-[120px] bg-bg-secondary flex items-center justify-evenly px-4 shadow-lg relative z-50">
       {/* Company Button - shows company name from name.txt */}
       <button
         onClick={handleCompanyClick}
@@ -38,9 +38,9 @@ export default function BottomBar() {
         categories.map((category) => (
           <button
             key={category.id}
-            onClick={() => {
+            onClick={(e) => {
+              e.stopPropagation()
               navigateToCategory(category)
-              toggleMenu()
             }}
             className={`${buttonClass} bg-bg-primary hover:bg-primary`}
           >

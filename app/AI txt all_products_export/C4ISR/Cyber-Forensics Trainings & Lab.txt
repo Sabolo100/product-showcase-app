@@ -1,0 +1,15 @@
+Kategória: C4ISR
+Termék: Cyber-Forensics Trainings & Lab
+
+An extensive training that at the Cyber Defense Alliance training center or deployed as a lab environment for use at the Client, if needed. The trainings build expertise in forensics techniques and procedures, standards of practice, legal and ethical principles to enable newly trained Experts in gathering and processing accurate, complete, and reliable digital evidence admissible in a court of law or for mission-critical military use.
+
+Given the varied applications of digital forensics, the training prepares Digital Forensic Specialists – Specialized in analyzing information on electronic evidence in laboratory area, gathered by field agents.
+-Using forensic tools and investigative methods to find specific electronic data, for example digital foot- and fingerprinting, internet use history, word processing documents, images, metadata, intel recovery and forms of data to find traces of illegal activity and extract the information as formal evidence.
+-The training can also be packaged as a turnkey lab environment for larger-scale, localized or academic distribution of Digital Forensic Specialist trainings and knowledge, or can be used as a work environment for existing experts, adding a key asset to the toolset of Public Service-, Homeland Defense and Military Intelligence Teams.
+-Both the trainings and the lab come included with the tools and technologies required to process, analyze and extract digital forensics evidence, and can be integrated into existing trainings or existing infrastructures handling other forms of forensic duties.
+
+Key Features:
+- Training:: 5 day training covering first steps of investigation, to information extraction, tracing and authentic evidence collection, with hands-on exercises and tests including all aspects of forensics and evidence handling
+- Tools used:: Belkasoft BAT, Belkasoft Evidence Center, FTK Imager, EnCase Imager, MobilEdit Forensic Pro, AccessData FTK, ElcomSoft Forensic Bundle, Oxygen Forensic Detective, and proprietary forensic tools &amp; technologies.
+- Distribution:: Training or Lab format
+- Lab Environment:: The Lab Environment comes equipped with all the tools needed to train- or conduct Digital Forensics, bundled with data- and communication security tools to prevent breaches and potential damage to the evidence during operation, insider- or outside attacks.

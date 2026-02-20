@@ -1,0 +1,9 @@
+Kategória: Aviation
+Termék: UAV Visual Intelligence Upgrade Kit
+
+Our solution turns conventional FPV drones into smart systems by equipping them with a mountable AI module with spherical cameras and built-in edge analytics.
+
+ This upgrade enables the UAV to process and analyze video in real time, eliminating the need to stream all raw data back to the ground station.
+
+Key Features:
+- We can also create a fully immersive: 360-degree virtual environment for the remote pilot, streaming live spherical video from the drone and delivering a head-tracked, real-time cockpit view that allows intuitive first-person control of the aircraft.

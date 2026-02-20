@@ -32,35 +32,32 @@ export const useNavigationStore = create<NavigationState>((set, get) => ({
   navigateToCategory: (category) => {
     const { currentPath, breadcrumb, categoryPath, menuHistory, currentCategory } = get()
 
-    // Check if we're already on this category (prevent duplicates)
-    if (currentCategory && currentCategory.id === category.id) {
-      return
-    }
-
     // Check if this is a root level category navigation from bottom bar
     // If currentPath is empty OR this category is not a child of current category, reset navigation
-    const isRootNavigation = currentPath.length === 0 ||
-      (currentCategory && !currentCategory.subcategories.some(sub => sub.id === category.id))
+    const isChildOfCurrent = currentCategory?.subcategories?.some(sub => sub.id === category.id) ?? false
+    const isRootNavigation = currentPath.length === 0 || !isChildOfCurrent
 
     if (isRootNavigation) {
-      // Reset navigation and start fresh
+      // Reset navigation and start fresh, always open menu for root navigation
       set({
         currentPath: [category.id],
         breadcrumb: [category.name],
         categoryPath: [category],
         currentCategory: category,
         selectedProduct: null,
-        menuHistory: []
+        menuHistory: [],
+        isMenuOpen: true
       })
     } else {
-      // Normal drill-down navigation
+      // Normal drill-down navigation - keep menu open
       set({
         currentPath: [...currentPath, category.id],
         breadcrumb: [...breadcrumb, category.name],
         categoryPath: [...categoryPath, category],
         currentCategory: category,
         selectedProduct: null,
-        menuHistory: currentCategory ? [...menuHistory, [currentCategory]] : menuHistory
+        menuHistory: currentCategory ? [...menuHistory, [currentCategory]] : menuHistory,
+        isMenuOpen: true
       })
     }
   },

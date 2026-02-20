@@ -1,0 +1,26 @@
+Kategória: Small arms
+Termék: G224LMG
+
+The G224LMG light machine gun has been developed according to the specifications set by the Hungarian Defence Forces.
+-This weapon fires 5.56 × 45 mm NATO ammunition.
+-Its barrel is easily interchangeable and equipped with a flash hider.
+-The controls ensure both right- and left-handed usage.
+-The buttstock uses a telescopic mechanism and allows for side-folding.
+-Its system is gas-operated, rotating bolt (with six locking lugs), gas piston short-stroke, and equipped with a gas regulator.
+-The firearm is suitable for both semi-automatic and fully automatic fire.
+-It is equipped with four Picatinny rails.
+-Its primary sight is an iron sight, and thanks to the Picatinny rails, it can be fitted with an optical sight.
+-The light machine gun can be fed from either a magazine or a belt. In the case of a drum magazine, the weapon can hold 60 rounds. It is compatible with STANAG M4 magazines.
+
+Key Features:
+- Empty Weight: 7,5 kg
+- Full Length: 1125 mm
+- Full Height: 238 mm
+- Full Width: 128 mm
+- Length of barrel: 550 mm (20”)
+- Caliber: 5,56 × 45 mm (NATO)
+- Shooting range: 600 m
+- Muzzle Velocity.: 930 m/s
+- Rate of fire: 650 rounds/min
+- Belt: cal. 5,56, disintegrating
+- Operation: fully automatic, semi-automatic

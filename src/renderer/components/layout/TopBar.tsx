@@ -36,7 +36,7 @@ export default function TopBar() {
   }
 
   return (
-    <div className="h-[100px] bg-bg-secondary flex items-center justify-between px-8 shadow-lg relative">
+    <div className="h-[100px] bg-bg-secondary flex items-center justify-between px-8 shadow-lg relative z-50">
       {/* App Logo / Title */}
       <div className="flex items-center h-full min-w-[200px] z-10">
         {config?.logoData ? (

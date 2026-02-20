@@ -1,0 +1,9 @@
+Kategória: Secure_comms_and_int
+Termék: Oraqlum
+
+In today's digital world, individuals are increasingly identifiable through public data. Key contact details, like mobile phone numbers serve as crucial identifiers in open-source intelligence.
+Our solution, Oraqlum was specifically developed to support law enforcement in their investigations, especially in the identification of real users in a call list
+
+Key Features:
+- Easily access valuable insights with just a phone number: no technical expertise required.
+- Unlock powerful data from multiple sources: simple and fast.

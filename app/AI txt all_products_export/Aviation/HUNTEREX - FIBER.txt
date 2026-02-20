@@ -1,0 +1,9 @@
+Kategória: Aviation
+Termék: HUNTEREX - FIBER
+
+HUNTEREX-FIBER is an advanced technology kamikaze mini unmanned aerial vehicle equipped with a fiber-optic cable-supported communication infrastructure.
+
+ Thanks to its advanced communication system, HUNTEREX-FIBER is resistant to jamming systems and ensures highly reliable communication. It is specifically designed to meet the need for secure data transmission under electronic warfare conditions. With its high-strength fiber optic cable and advanced spool system, HUNTEREX-FIBER maintains continuous two-way communication with the control unit during flight.
+ This bidirectional communication enables the operator to manage the UAV’s payload in real-time and to redirect the vehicle as needed throughout the mission. 
+
+What makes this UAV strategically significant is its ability to continue flight even if the spool system is severed, thanks to its resilient communication infrastructure.

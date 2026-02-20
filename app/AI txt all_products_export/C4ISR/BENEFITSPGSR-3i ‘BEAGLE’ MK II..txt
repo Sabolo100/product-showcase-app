@@ -1,0 +1,17 @@
+Kategória: C4ISR
+Termék: BENEFITSPGSR-3i ‘BEAGLE’ MK II.
+
+PGSR-3i ‘Beagle’ Mk. II. is a unique lightweight man-portable radar, capable of intercepting, detecting and tracking targets moving on or close to the ground.
+Capable of classifying and differentiating targets based on their size and movement characteristics.
+Ideal choice for the border guard, military and combat duties.
+Durable, withstand harsh environmental conditions.
+Portable in backpacks by two-man teams or can be mounted on mast/vehicle.
+Set up and ready for operation within five minutes.
+
+Key Features:
+- Scan Rate: 7°/sec or 14°/sec or 22°/sec
+- Range: +/- 10 m at 5 km range
+- Azimuth: ≤ 0.3°
+- Target Capacity: 600 plots can be displayed
+- Frequency Band: X Band (NATO I/J Band)
+- Power Requirements: 28 VDC (22–33 VDC) max. 65 W

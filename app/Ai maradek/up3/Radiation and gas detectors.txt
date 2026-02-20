@@ -1,0 +1,14 @@
+Kategória: up3
+Termék: Radiation and gas detectors
+
+The company offers highly sensitive instruments and systems designed for measuring gamma radiation level in a wide range. These devices are suitable
+for the aerial and terrestrial reconnaissance of widely contaminated areas after nuclear incidents, and for the localization and identification of gamma and
+neutron orphan sources. GTI gas detectors are intelligent transmitters with quick and reliable operation, low-noise electronics, excellent zero and span
+stability.
+
+Key Features:
+-Radiation measurement with GeigerMüller counters and spectrometric scintillation detectors.
+-Wide range of gas sensors (electrochemical, pellistor, PID, NDIR).
+-Ideal tools for radiation protection applications and environment monitoring.
+-Suitable instruments for UAV, UGV applications.
+-Various configurations for different vehicles with radiation level meters and spectrometric probes.

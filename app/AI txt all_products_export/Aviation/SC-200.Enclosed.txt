@@ -1,0 +1,30 @@
+Kategória: Aviation
+Termék: SC-200.Enclosed
+
+The enclosure can reduce overall drag compared to open-cockpit versions, potentially improving performance. Based on the SC-200 model, the enclosed version has an enhanced safety and comfort features:
+
+Comfort and weather features:
+-protection from various weather conditions,
+-heating system,
+-reduced noise and vibration,
+-enhanced safety: the enclosed cabin can contribute to overall structural integrity, offers.
+-better protection in the event of crash.
+
+Extending the base model (SC-200):
+-Police and military application: road and border patrol/surveillance with Radar, Lidar and complex camera system, basic flight training, parachuting.
+-Rescue teams: fast medical aid with additional stretcher, search for a missing person.
+-Combat wildfires: precision water and retardant drops (~200 litres water tank), support for ground teams, carrying smokejumpers.
+
+Key Features:
+- Prototype ready: Development phase
+- Empty weight: 298 kg	350 kg
+- Rotor diameter: 8.4 m	9.6 m
+- Seats: 2	3
+- Maximum take-off weight: 560 kg	670 kg
+- Maximum take of distance: 120 m	120 m
+- Climb rate: 3.5–7 m/s	3.5–7 m/s
+- Cruise speed: 140 km/h	140 km/h
+- Maximum speed: 165 km/h	165 km/h
+- Range: up to 5 hours/500 km (10 hours/1000 km with auxiliary tank)
+- Fuel: 95e petrol 60 litres (100 litres with auxiliary tank)
+- Dimensions: 8.4 m × 2 m × 2.75 m	9.6 m × 2.5 m × 2.8 m

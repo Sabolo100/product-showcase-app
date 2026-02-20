@@ -1,0 +1,14 @@
+Kategória: Simulation_and_training
+Termék: Sniper VRSST
+
+Elevate sniper training with Sniper VRSST, our advanced virtual reality simulator designed for mastering the art of rifle setup across diverse environmental conditions.
+-Rapid skill acquisition:	Facilitates the development of fast, near-automatic rifle adjustments.
+-All-in-one VR solution:	No additional equipment necessary.
+-Scalable deployment:	Easily accessible for training large numbers of soldiers.
+-Motor reflex integration:	Embeds essential skills deep into muscle memory.
+-Immersive training environment:	Life-sized, realistic settings enhance learning and engagement.
+-Simple Smart Tech (SST) solution:	Using commercially available, easy to operate and distribute standalone devices.
+
+Key Features:
+- Dynamic Scenario Inputs: Adapts to real-time changes in target distance, wind, temperature, and more, mimicking real-world conditions.
+- Developed with NATO Experts: Created in collaboration with NATO sniper trainers to ensure authenticity and effectiveness.

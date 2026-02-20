@@ -1,0 +1,15 @@
+Kategória: Logistics
+Termék: Cyclops
+
+One of the best quality/price ratio portable reconnaissance thermal cameras with640x480 pixel resolution on the market.
+-The camera operates for 8 hours with one set of batteries however, its weight (incl. batteries) does not reach 1.6 kg.
+-The exceptionally bright lens detects a vehicle from more than 4,000 m and a person from more than 2,000 m.
+-The device can be ordered with a 3D magnetic compass, a built-in GPS module, WLAN-communication and an LRF unit.
+
+Key Features:
+- Spectral Band: 7 μm – 14μm
+- Zoom: x2, x4, x8
+- Display: Monocular full colour OLED 800 × 600
+- GPS (optional): GPS & QZSS L1 C/A, GLONASSL1OF
+- WLAN (optional): IEEE 802.11b/g, 2.4GHz
+- Digital Magnetic Compass: (1δ)360°/±2.5°

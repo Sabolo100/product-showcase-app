@@ -1,0 +1,23 @@
+Kategória: Aviation
+Termék: FUSION SENTINEL
+
+The Fusion Sentinel is a carbon composite aircraft designed for aerial surveillance. 
+
+Equipped with HD and thermal imaging, gyro-stabilized gimbal, and real-time encrypted data transmission up to 100 km, it ensures precision monitoring day and night. 
+
+Ideal for border patrol, reconnaissance, and environmental missions. The Sentinel offers rapid deployment, low operational cost, and versatile payload integration in demanding operational environments.
+
+Key Features:
+- Wingspan: 8,44m / 27.69 ft
+- Length: 6,62 m / 21.7 ft
+- Height: 2,4 m / 7.87 ft
+- Cabin Width: 1,17 m / 3.84 ft
+- Max Take-off Weight: 600 kg / 1323 lb
+- Take-off Distance: 150-250 m / 492-820 ft
+- Climb Rate: 4,5-6 m/s/ 900-1200 ft/min
+- Max Operating Altitude: 3650 m / 12000 ft
+- Stall Speed with Flaps: 83 km/h / 45 kts CAS (LDG Config.)
+- Max Cruise Speed: 214-256 km/h 116-122 kts TAS
+- Fuel Consumption: 16-21 l/hr / 4.2-5.4 gal/hr
+- Manufacturer Rotax: 912-916 IS, ULS
+- Horsepower: 100-160 hp

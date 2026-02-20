@@ -1,0 +1,22 @@
+Kategória: Space
+Termék: 16U Platform
+
+Small satellite platform, the platform gains flight heritage with launch of MAUVE in 2025.
+
+•	In-house developed structure and subsystems based on ECSS standards
+•	5-year design lifetime in LEO
+•	Double redundancy and soft degradation in all subsystems 
+•	Single-point failure tolerant design 
+•	Soft degradation in all subsystems & single-point failure tolerant design, that increases lifetime and reliability
+•	Turn-key solution that covers the whole mission (from planning until deorbiting)
+•	Structure optimized for high thermal dissipation density and thermo-elastic performance, both for the payload and the platform.
+
+Key Features:
+- Mechanical: Payload Volume [liter]*
+- Payload Dimensions [mm]*: 216.2 x 216.2 x 337
+- Payload Mass [kg]*: 25
+- Spacecraft Mass [kg] *: 7
+- Power: Payload Power (Sun Tracking) [W]
+- ADCS: Absolute Knowledge Error (AKE) [deg]**
+- Absolute Performance Error (APE) [deg]**: 0.6 - 0.017
+- Communication: VHF, UHF/ S-Band/ X-Band/ KA-Band

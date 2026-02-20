@@ -1,0 +1,12 @@
+Kategória: Simulation_and_training
+Termék: DefTech XR
+
+DefTech XR combines our innovative DEFTECH Framework, LeoXR SDK, and LeoXR 360 Safety Framework to provide state-of-the-art AR and VR training solutions. 
+
+These platforms are integrated to develop customized training modules for a spectrum of military operations, from basic equipment handling to advanced tactical manoeuvres.
+
+Key Features:
+- Realistic Simulations: Hyper-realistic, 3D environments for immersive training that replicates real-world conditions without the risks.
+- Cost-Effective Training: Reduces the need for physical resources and logistical preparations, significantly lowering training costs.
+- Scalable and Flexible: Easily adaptable to different scopes and sizes of military units, with capabilities for both small teams and large-scale operations.
+- Military-Grade Development and Support: Designed to meet stringent military standards, ensuring robustness and reliability with dedicated technical support and development for seamless operational integration.

@@ -1,0 +1,17 @@
+Kategória: C4ISR
+Termék: KAIBOU
+
+Kaibou product provides in-house malware handling capabilities. In our experience, nation states' cyber defense measures against malware are limited to collecting daily/weekly/monthly reports. Law enforcement agencies are typically unprepared to quickly and effectively detect a potential malware attack, recover from it, and even identify the perpetrator from the traces left behind. Moreover, existing market solutions do not guarantee confidentiality in this sensitive manner. 
+
+Product Kaibou does just that: provides on-premise tools and in-house capabilities to handle the most dangerous elements of cyber-warfare, while maintaining the highest level of customer security and confidentiality. 
+
+The product has three components:
+-Kaibou Repository: Over 750 million malware samples from the past 20 years, written for IT, OT, and IoT environments. Samples can be searched in the database in a matter of seconds, even based on similarity.
+-Kaibou Laboratory: A safe and secure environment for analysing malware samples. It includes both software and hardware elements, a world-class toolkit that can be customized to customer needs.
+-Training: We train our clients' experts not only to use the Repository and Laboratory, but also to understand the methodology and logic of malware analysis in general. Training can range from introductory, general knowledge to highly specialized cyber defense topics to advanced experts. The length of the training can vary from 10 to 20 days.
+-We provide support and malware feed for 2 years after purchase. Each product component can also be purchased separately.
+
+Key Features:
+- Sample: 750+ million malware (700 TB)
+- MW types: trojan, worm, virus, adware, miner, phishing, downloader, pua, hacktool, dropper, ransomware, fakeav etc.
+- Feed: ~150 000 / day (150 GB)

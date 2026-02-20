@@ -1,0 +1,25 @@
+Kategória: Aviation
+Termék: TACTICAL KAMIKAZE SYSTEMS
+
+A fixed-wing loitering munition developed for long-range precision strike missions. It offers an effective solution in enemy territory with silent approach, low radar signature, autonomous/semi-autonomous mission capabilities, and integrated electro-optical imaging and targeting systems.
+-Potential Mission Profiles
+-Neutralization of Critical Targets
+-Neutralization of Asymmetric Threat Elements
+-Elimination of Fixed and Mobile Cross-border Targets
+-Simultaneous Engagement of Multiıple Targets Using Swarm Concepts
+-Tactical Superiority in Ambush and Sabotage Operations
+-Urban Warfare Operations
+
+Key Features:
+- Range: 50km
+- Flight Duration: 45min
+- Warhead: 3,8kg
+- Effectiveness Radius: 30m
+- Service Ceiling: 3500m (AMSL)
+- Cruise Speed: 80km/h
+- Maximum Speed: 162km/h
+- Control Range: 20km
+- Altitude: 150m+ (AGL)
+- Maximum Take-off Weight: 15kg
+- CEP – Accuracy Radius: 5-10m
+- User-Defined Impact Angle: -5, -90

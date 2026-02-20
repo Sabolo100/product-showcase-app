@@ -1,0 +1,16 @@
+Kategória: C4ISR
+Termék: ReDeDex
+
+ReDeDex is an AI-driven compliance system, which helps companies achieve and retain compliance with regulations and policies. The system automatically reviews and indexes policies, serving as a virtual Compliance Expert to provide an on-demand and instant overview current regulatory requirements they need to achieve.
+
+The fully automated process handles adding, modifying and updating policies to match the highest current standards and eliminate the possibility of oversights or human error when reviewing requirements.
+
+-Training the system is automatic, including the processing and distribution of custom company policies across branches.
+-Using the system doesn’t require additional training, as the intuitive interface and chat- or speech-based operating process enables any non-technical personnel to access its vast knowledge in an instant. ReDeDex is a multi-layer AI system, with a highly reliable expert-system handling database rules, to determine the core of the answers, while a generative AI handles speech processing and answer generation.
+-The combined use of these two layers ensures a faster processing of even complex questions that would prove hard to find in traditional knowledgebases or databases, while the answers given are restricted to a strict set of rules and policies to prevent misinformation.
+-Answers are generated both in speech and with directions to the specific topics in the respective policy or booklet, giving a quick summary when needed or providing exact sources for thorough reviews. ReDeDex also helps define and understand the policies and helps users determine if a specific regulation or policy applies to certain scenarios.
+
+Key Features:
+- Supports:: Regulations, Company policies, Regional policies, Client-, Partner- and Branch agreements, SLAs
+- Key Features:: Quick speech based questions without restriction to know specifics of asked topic, Reliable responses based on expert-system architecture, Summarized answers in speech and references or direct links to policy database, Autodiscovery of changes and handling updates
+- Platform:: Virtualized environment, Web App/ Web service, Kiosk, Training-, HR-, Legal- &amp; Support portal integration

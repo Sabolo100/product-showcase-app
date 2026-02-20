@@ -1,0 +1,15 @@
+Kategória: C4ISR
+Termék: HatHárom / Vitéz - Metahumans
+
+Metahumans provide a constant, always available and highly accessible knowledge distribution solution, without the setbacks of traditional knowledgebases. They can be trained to provide immediate answers to a wide range of complex questions regarding policies and basic training knowledge on-demand. Due to the dual-layer approach, a highly reliable expert-system determines the core of the answers, while a generative AI handles speech processing and answer generation.
+
+The combined use of these two layers ensures a faster processing of even complex questions that would prove hard to find in traditional knowledgebases, while the answers given are restricted to a strict set of rules and policies to prevent misinformation.
+-With Metahumans, hundreds of soldiers can refresh their knowledge or ask specific questions 24/7 and will receive answers in both speech and directions to the specific topics in the respective policy or booklet.
+-The advantage of speech enables military personnel to compose their questions as human speech, enabling them to find the knowledge they seek even without knowing a lot of specifics about the topic, just like they’d ask a trainer. After processing the question transformed into a prompt, the AI checks it against the knowledge of the expert-system, which is an architecture so reliable, that it has been used in healthcare diagnostics since the 1970s. The result of the search is then relayed back to the user in speech and with direct links to the source to get both a short, summarized answer, references and direct links to the whole articles.
+-Our Metahumans combine these two features to make use of knowledgebases user friendly and while keeping them reliable unlike conventional chatbots.
+-Deployment and training of Metahumans are quick, as the underlying knowledge is stored in a simplified expert-system architecture, while speech processing is a readily available model that is restricted to use only the knowledge stored in its database.
+
+Key Features:
+- Supports:: NATO/EU Policies, Custom policy sets and knowledgebase imports &amp; training
+- Key Features:: Quick speech based questions without restriction to know specifics of asked topic, Reliable responses based on expert-system architecture, Summarized answers in speech and references or direct links to policy database
+- Platform:: Virtualized environment, Web App/ Web service, Kiosk, Training tool integration

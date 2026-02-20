@@ -1,0 +1,19 @@
+Kategória: C4ISR
+Termék: Ichidoku
+
+Ichidoku makes cyber-physical networks transparent, revealing Patchwork OT and providing a clear understanding of how the whole infrastructure is built – giving Security Teams critical insight to defend against attacks. Ichidoku also reduces vendor-dependency, inventory clutter and exposed vulnerabilities, specifically designed for industrial sized systems, including critical infrastructures.
+
+-The solution can adapt to each systems unique protocols and handle even proprietary communications. Ichidoku works with network data, in a passive manner, so the original system can work undisturbed. An integrated vulnerability database helps to detect vulnerabilities, anomalies and cyber security incidents automatically or based on customizable policies.
+
+-Autodiscovery and inventory – Ichidoku can automatically discover all the assets communicating in the PROD network without interfering with operation. Gathering information of existing ports, protocols and machines to prepare a thorough defence plan.
+
+-Common Vulnerabilities and Exposures (CVE) database – Ichidoku comes with a built-in vulnerability database and will highlight potential risks in the network.
+
+-Physical and logical topology mapping – A constantly up-to-date visibility of existing devices in the network, including physical and logical relations between them - even if they were implemented by different vendors. The addition of historic event data helps thorough investigations and reporting. A simple drag ‘n’ drop method supports quick editing of the topology map, drill down views to get specific information, and filters for focused reports.
+-Policy based anomaly detection – Ichidoku comes with a built-in set of rules (based on the MITRE ATT&CK framework, and is prepared to satisfy all the needs of the IEC62443 standard) and alert function. Additional rules can be defined with the simple drag ‘n’ drop functions, to set up custom policies including detection of insider misuse, compliance and hacker activity.
+
+Key Features:
+- Key Features:: Autodiscovery and Inventory, Historical data and granular reports, Anomaly Detection, CVE Database, Topology Mapping, Intuitive GUI, Network Event Logging, SIEM integration
+- Environments:: IT &amp; OT, Cyber- and Physical assets
+- Vulnerability scanning:: Built-in ruleset including MITRE ATT&amp;CK signatures and IEC62443 standard compliance, Custom Rulesets, Anomaly/Spike Detection
+- Tools:: Dashboards, Reports, Inventory, Drag’n’Drop Rules and Views, Automatic discovery, Event Monitoring and Log forwarding to SIEM tools

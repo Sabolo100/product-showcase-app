@@ -1,5 +1,4 @@
 import path from 'path'
-import fs from 'fs'
 import { app } from 'electron'
 
 // Whisper is currently disabled - using Web Speech API in renderer instead
@@ -35,7 +34,7 @@ export async function initWhisper(): Promise<boolean> {
 /**
  * Transcribe audio - currently disabled
  */
-export async function transcribeAudio(audioData: number[]): Promise<{ success: boolean; text?: string; error?: string }> {
+export async function transcribeAudio(_audioData: number[]): Promise<{ success: boolean; text?: string; error?: string }> {
   return { success: false, error: 'Whisper disabled - use Web Speech API' }
 }
 

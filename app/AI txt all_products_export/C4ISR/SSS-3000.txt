@@ -1,0 +1,12 @@
+Kategória: C4ISR
+Termék: SSS-3000
+
+The equipment offers high-capacity, full-featured digital hard-disk signal record/playback capability in a compact 4U rack-mount case. The product is based on well proven Software Defined Radio (SDR) technology already deployed in a wide range of communication systems.
+
+The storage server can be used to record and later playback the stored analog signal with up to 40 MHz instantaneous bandwidth. The bandwidth of the recording could be reduced by the builtin digital tuner to increase the storage capacity. The storage server is able to operate in record or playback mode of operation. 
+-The format of the recorded file is available and Matlab® interface is provided for off-line processing.
+
+Key Features:
+- Up to: 40 MHz wide instantaneous real-time bandwidth.
+- Up to: 8TB storage capacity in 4U.
+- Removable drives in: 4U rack-mount units.

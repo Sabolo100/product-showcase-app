@@ -1,0 +1,21 @@
+Kategória: C4ISR
+Termék: GASR-3D ‘TERRIER’
+
+The GASR-3D ‘Terrier’ is the next generation Counter-Loitering Munition/UAS/Drone solution.
+
+-The Radar is capable of simultaneously detecting, tracking and classifying Loitering Munition, UAS/Drone, Helicopter, Aircraft and ground targets (humans, vehicles etc.). In V-SHORAD configuration, the system detects and recognizes aerial threats and provides target information for the fire control system.
+-The principle of operation is Frequency Modulated Continuous Wave (FMCW) technology with DBF enabling high MTBF. The radar utilizes unique AESA transmitter. Low power transmission and continuously changing frequency provides Low Probability of detection and Interception (LPI).
+
+Key Features:
+- Micro UAS (RCS 0.01–0.05 m²): 2.3–3.5 km
+- Soldier (RCS 1 m²): 7.3 km
+- Vehicle (RCS 5 m²): 11 km
+- Helicopter (RCS 10 m²): 13 km
+- Tank (RCS 50 m²): 19.5 km
+- Range: 4 m
+- Azimuth: 0.4°
+- Elevation: 0.5°
+- Operation Principle: FMCW – Doppler with DBF, AESA, AI
+- Azimuth Coverage: 90° with DBF staring beams (single plate unit)
+- Elevation Coverage: 80° with AESA Tx
+- Frequency Band: X Band (NATO I/J Band)

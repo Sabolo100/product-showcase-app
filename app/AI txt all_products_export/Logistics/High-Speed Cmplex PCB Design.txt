@@ -1,0 +1,30 @@
+Kategória: Logistics
+Termék: High-Speed Cmplex PCB Design
+
+The company is an AS/EN 9100 certified, independent engineering service provider in Budapest/Hungary with a focus on complex electronics. 
+
+The company provides custom, rugged electronics, PCB design and product development for various industries including Aerospace & Defense, Space, IT and High-Performance
+Computing. 
+Services include: 
+-system design, schematic, PCB layout, IBIS simulation, embedded SW and low volume high-end prototyping. 
+
+The company has references across Europe (Belgium, Luxembourg, Switzerland, Germany, Norway, United Kingdom, Ireland, Italy) and overseas (Israel, USA). 150 PCBs designed
+annually, from which 50+ are HDI design.
+
+
+Key Features:
+-Hardware Design Services:
+-System design
+-Schematic capture
+-Board design /
+-PCB layout
+-IBIS (AMI) simulation
+-Embedded Software Development:
+-MCU programming
+-Embedded linux BSP, device drivers
+-FPGA programming
+Other Services:
+-Mechanical design and simulation
+-Small series high-end prototyping
+-CE/FCC/MILSTD certification
+-Functional test systems

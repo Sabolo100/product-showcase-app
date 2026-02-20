@@ -1,0 +1,21 @@
+Kategória: Space
+Termék: 6 – 16 U Remote Sensing/ Earth Observation satellite
+
+C3S provides turn-key space solution for remote sensing missions and data collection. Earth observation missions use satellites equipped with optical, multispectral, hyperspectral, SWIR and visible/NIR cameras and thermal sensors to collect geospatial data for Earth observation. In case it is needed with onboard AI based data processing. The camera provides multispectral VIS and SWIR imaging with GSD ranging from 3 m to 16 m, depending on the satellite configuration.
+
+
+-The satellites support environmental monitoring, disaster response and defense purposes.
+
+
+-C3S’s remote sensing use case / WREN-1
+-Launched in August 2024, the 6U CubeSat WREN 1 supports precision agriculture in Hungary by identifying drought prone areas through topsoil moisture and vegetation monitoring. Its multispectral imager (visible, near infrared, and short wave infrared) captures 16×16 m data over 10,000 km², including off nadir views for frequent updates. Processed images provide high resolution biophysical data, analyzed with machine learning to mitigate drought damage. The satellite has been fully operational since 2024, continuously transmitting data.
+
+Key Features:
+- Mechanical: Payload Volume [liter]*
+- Payload Dimensions [mm]*: 94 x 216.2 x 256
+- Payload Mass [kg]*: 8.2
+- Spacecraft Mass [kg] *: 4.3
+- Power: Payload Power (Sun Tracking) [W]
+- ADCS: Absolute Knowledge Error (AKE) [deg]**
+- Absolute Performance Error (APE) [deg]**: 0.6 - 0.017
+- Communication: VHF, UHF/ S-Band/ X-Band/ KA-Band

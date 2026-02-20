@@ -1,0 +1,15 @@
+Kategória: C4ISR
+Termék: PGSR-3iFT ‘BEAGLE’ Mk. II.
+
+PGSR-3iFT ‘Beagle’ Mk. II. is a tower-mounted radar detecting, tracking and classifying targets, moving on or close to the ground.
+Designed for desert and harsh environment operation.
+Placed inside a hermetically sealed redone to withstand extreme weather conditions.
+Mounted on top of towers, 360° coverage, observing and collecting information from the surrounding area.
+
+Key Features:
+- Scan Rate: 7°/sec or 14°/sec or 22°/sec
+- Range: +/- 10 m at 5 km range
+- Azimuth: ≤ 0.3°
+- Target Capacity: 600 plots can be displayed
+- Frequency Band: X Band (NATO I/J Band)
+- Power Requirements: 28 VDC (22–33 VDC) max. 100 W

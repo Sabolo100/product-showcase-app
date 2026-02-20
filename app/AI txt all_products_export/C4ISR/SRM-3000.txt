@@ -1,0 +1,11 @@
+Kategória: C4ISR
+Termék: SRM-3000
+
+The SRM-3000 is a broadband, digitally implemented monitoring receiver. With a frequency preselector it can be used in HF bands as direct digitized receiver.
+
+(DDR) The frequency range could be extended using a VHF/UHF receiver frontend tuner with wide-band IF output. The receiver digitizes the incoming signal in its instantaneous (real-time) bandwidth. Its digital receiver channels can be tuned to given frequency in its real-time bandwidth.
+-The data streams of the channels are processed by the digital demodulators, supporting usual number of carrier modulation waveforms and bandwidths of wireless emitters. The receiver consists of the RF front-end, digitizer and data capturing unit implemented as a computer add-on card using desktop PCI form factor and the associated driver, signal processing and user interface software components.
+-For forming a full-functional monitoring receiver the basic components are installed in a high-grade industrial interface computer.
+
+Key Features:
+- Up to: 40 MHz wide instantaneous realtime bandwidth.

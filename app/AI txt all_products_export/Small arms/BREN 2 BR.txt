@@ -1,0 +1,15 @@
+Kategória: Small arms
+Termék: BREN 2 BR
+
+The BREN 2 BR is a longer-barrel, automatic version of the BREN 2 assault rifle, developed for designated marksman. The weapon combines the advantages of rifles with the smashing and destructive power of the 7,62x51 mm calibre. Thanks to the longer barrel, it provides enhanced protection for special units during combat in an urban environment. Its effective range is 800 metres.
+
+Key Features:
+- Model: CZ-HU BREN 2 BR
+- Calibre: 7.62×51 mm
+- Magazine capacity: 25 rounds
+- Frame: Aliminium alloy 7075 T6
+- Barrel length (mm): 407
+- Overall length with folded/unfolded stock (mm): 735/925-995 ± 10
+- Height with folded sight, without magazine (mm): 210 ± 5
+- Width with folded/unfolded stock (mm): 80/110 ± 5
+- Weight without magazine (g): 3778 ± 50

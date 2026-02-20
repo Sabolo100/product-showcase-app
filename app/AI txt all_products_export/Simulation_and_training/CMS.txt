@@ -1,0 +1,7 @@
+Kategória: Simulation_and_training
+Termék: CMS
+
+CMS is a Synthetic Training Environment which provides a realistic and complex training and modelling environment to train various parties of managing a crisis:
+law enforcement,
+intervention units of critical infrastructures,
+politician decision makers, local authorities.

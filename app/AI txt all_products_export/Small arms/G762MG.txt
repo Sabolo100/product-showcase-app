@@ -1,0 +1,26 @@
+Kategória: Small arms
+Termék: G762MG
+
+The G762MG machine gun has been developed according to the specifications set by the Hungarian Defence Forces.
+-This weapon fires 7.62x51 mm NATO ammunition.
+-Its barrel is easily interchangeable and equipped with a flash suppressor.
+-The controls ensure both right- and left-handed usage.
+-The buttstock offers a telescopic mechanism that allows for side-folding.
+-Its system is gas-operated, rotating bolt (with six locking lugs), gas piston short-stroke, and equipped with a gas regulator.
+-Suitable for fully automatic fire.
+-The firearm is equipped with four Picatinny rails.
+-Its primary sight is an iron sight, and thanks to the Picatinny rails, it can be fitted with an optical sight.
+-The machine gun can be fed from belt.
+
+Key Features:
+- Empty Weight: 9,2kg
+- Full Length: 1225mm
+- Full Height: 238mm
+- Full Width: 128mm
+- Length of barrel: 550mm (22”)
+- Caliber: 7,62x51mm (NATO)
+- Shooting range: 800m
+- Muzzle Velocity.: 860m/s
+- Rate of fire: 600 rounds/min
+- Belt: cal. 7,62, disintegrating
+- Operation: fully automatic

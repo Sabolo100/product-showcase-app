@@ -1,0 +1,19 @@
+Kategória: up3
+Termék: MVA mobile communication platform
+
+Communication via mobile devices, i.e. mobile conversations and instant messages, have become widespread all around the world. 
+
+A variety of free and paid communications solutions have emerged even providing end-end encrypted secure communications. However, in terms of security, there is still room for
+improvement. With the introduction of the MVA mobile communication solution, we want to take communication security to the next level. MVA makes sure that
+no unauthorized person becomes aware of the content or even the fact of the communication. 
+
+MVA enables the customer to control the communication app on
+the user's device, restrict access to the app to a closed user group and control the central on-prem server managing the entire communication.
+
+Key Features:
+-In our MVA software platform, we use today's most advanced and secure technologies in a closed ecosystem:
+-Fully encrypted communication.
+-No identification possible based on phone number and e-mail address.
+-Self-hosted server.
+-Closed user group.
+-Application built on an open source solution.

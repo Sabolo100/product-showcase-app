@@ -1,0 +1,17 @@
+Kategória: Secure_comms_and_int
+Termék: GTB
+
+Mobile Phone Remote Access
+
+The GTB solution is remote access to your Android phone left at home. Why should you leave your phone at home? You as the mobile phone user cannot be
+identified based on your radio footprint (Bluetooth, Wi-Fi, IMSI). Your phone cannot be stolen, lost or investigated. Your phone cannot be hacked physically,
+through the radio interface, or by malicious software. Why should you always have your phone with you?
+-You cannot access and read your incoming SMS and instant messages.
+-You cannot make and receive calls. You don't have access to the files, images, contacts and apps on your phone.
+-Using a new phone number is backward when making and receiving calls.
+
+Periodic and comprehensive protection of your phone:
+-when your personal presence somewhere is vital, but the environment around you is hostile.
+-when the data – files, images etc. – stored on your phone may be at risk, but data or apps on your phone are needed.
+-End-to-end encryption.
+-On-premises server for communication setup.

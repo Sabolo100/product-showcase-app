@@ -1,0 +1,15 @@
+Kategória: C4ISR
+Termék: SRS-3000
+
+The receiver consists of the usual components of digital fast-scanning intercept receiver:
+-RF front-end,
+-HF/VHF digitizer,
+-Digital filtering and
+-Digital signal processor.
+-The SRS-3000 is a frequency-agile, lightweight HF/VHF/UHF receiver designed for limited space and high-mobility application for ground and air environment.
+-Its compact size, broad tuning range and high-level remote control functionality make it ideal for multitude of system application, including commercial frequency management and military EW/SIGINT/COMINT missions...
+
+Key Features:
+- Up to: 40 MHz wide instantaneous real-time bandwidth.
+- Down to: 1 ms time resolution.
+- Down to: 1 kHz frequency resolution.

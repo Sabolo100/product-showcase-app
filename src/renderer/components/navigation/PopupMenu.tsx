@@ -22,9 +22,12 @@ export default function PopupMenu() {
   const hasProducts = currentCategory.products.length > 0
 
   return (
-    <AnimatePresence>
+    <AnimatePresence mode="wait">
       {isMenuOpen && (
-        <div className="fixed inset-0 z-40 flex justify-center pt-[180px] pb-[120px]">
+        <div
+          key={currentCategory.id}
+          className="fixed inset-0 z-40 flex justify-center pt-[180px] pb-[120px]"
+        >
           {/* Overlay */}
           <motion.div
             initial={{ opacity: 0 }}

@@ -1,0 +1,24 @@
+Kategória: C4ISR
+Termék: Proxedo Network Security
+
+Proxedo Network Security offers a wide range of tools to secure network communications, including proprietary-, legacy- and critical infrastructure systems based on Deep Packet Inspection and granular controls.
+
+The Threat Protection capabilities enable quick deployment of negative- and positive-security models, and enforcement of Zero Trust Architecture across the whole environment.
+
+Proxedo Data Manipulation tools provide full control over incoming- and outgoing communications, their contents, to bridge gaps between systems or flag specific data. These features also provide the opportunity to anonymize or pseudonymize data in-transit.
+
+-The monitoring capabilities of Proxedo utilize the Deep Packet Inspection and granular selection of data marked for logging, creating customized log outputs for each team working with the data. Proxedo can also generate logs independently from the capabilities of the protected systems, enabling experts to monitor any system and to create uniform log outputs across the whole infrastructure without the need to modify any of the protected systems.
+-PNS encryption tools support all standard encryption methods, while the cryptography module provides the framework to use custom encryption on all transmitted data. Proxedo can enforce this encryption, even if the protected system doesn’t support any moder cryptography, ensuring that all communications are protected in-transit.
+-The robust central management and scalability of PNS ensure deployment and centralized management of hundreds of Proxedo instances across the globe, while its standard connectors and simplistic configuration handling can integrate seamlessly with existing SOAR or Central Configuration Management tools.
+-Configurations can be pre-loaded or distributed centrally, reducing the time-, resources- and technical personnel needed to establish secure communications from C2C, C4ISR, to IT/OT sensor data and even unique use-cases such as MWR.
+
+Key Features:
+- Hardware:: Hardware Agnostic Software, Options for Datacenter environments and Ruggedized casings available
+- Deployment options:: On-premise, Virtualization, Cloud, Kubernetes
+- Supported Protocols:: 15+ including IT/OT and Custom proxies
+- Scalability:: Scalable to 200+ nodes distributed globally
+- Logging &amp; Monitoring:: Custom log outputs, Traffic Mirroring, Deep Packet Inspection, Encryption offloading
+- Encryption:: Enforce, Offload, Change cryptography, Manipulate contents in-transit, Log encrypted data
+- Threat Prevention:: Proxies, Filters, Content Vectoring, WAF, Threat Intelligence, Blacklist, Whitelist, Custom Content-, Attribute-based or Logic based log/alert/abort &amp; Fully customizable rulesets
+- Authentication &amp; Authorization:: RBAC, AD/LDAP integration, MFA, SSO, in-band and out-of-band authentication, Agent based Auth, Physical token support, microsegmentation and authorization controls
+- Data Manipulation:: Remove/Add/Modify, Anonymize, Pseudonymize, Flag and transform traffic to breach interoperability gaps and to mask information.

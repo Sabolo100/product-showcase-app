@@ -8,7 +8,7 @@ interface VideoPlayerProps {
   onError?: () => void
 }
 
-export default function VideoPlayer({ src, caption, onLoad, onError }: VideoPlayerProps) {
+export default function VideoPlayer({ src, caption: _caption, onLoad, onError }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const progressRef = useRef<HTMLDivElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)

@@ -1,0 +1,12 @@
+Kategória: up3
+Termék: S+
+
+Our application is also prepared for scenarios where the phone is at risk of getting into unauthorized hands. With a simple gesture, encrypted conversations and
+other related features of the S+ application will be hidden, as we switch back to the usual Signal mode, making them invisible to prying eyes. Once back to the
+usual Signal mode, messages from other S+ applications will not appear, but calls can still be received. Switching over to the S+ mode, these extra secure
+messages will appear again. By installing the S+ application, you can continue using the Signal-operated infrastructure and Signal servers plus maintain
+communication with regular Signal users in the usual manner. S+ guarantees that, audio and video calls and instant-message exchanges with other S+ users
+become extra secure, thanks to the additional protection we have implemented in the form of end-to-end AES encryption between the communication endpoints.
+
+Extraordinary on the inside, ordinary on the outside!
+Our unique development provides a solution for those who seek enhanced security for their conversations and messages but do not wish to arouse suspicion by using a new, unfamiliar application.

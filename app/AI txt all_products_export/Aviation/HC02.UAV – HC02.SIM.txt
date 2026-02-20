@@ -1,0 +1,26 @@
+Kategória: Aviation
+Termék: HC02.UAV – HC02.SIM
+
+HC02.UAV
+Based on the HC02 the HC02.UAV eliminates human risk and extends flight endurance in mission-critical tasks like:
+-Surveillance
+-Attack
+-Behind the border logistics and rescue.
+-Due to in-house design and production including mechanical, electrical and software, every customer-specific modification and customisation is possible if needed. 
+-Multiple communication channels are available, like LOS (Low Orbit Satellite), encrypted, mesh-capable direct RF link with a backup 4G/LTE connection.
+
+HC02.SIM – Remote controller
+-One of the most crucial parts of UAV operation is training. 
+-The HC02.SIM is based on a realistic physical engine with almost indistinguishable real-life detailed VR graphics, moreover a 6 dimension of freedom motion platform to feel every movement like an onboard pilot. 
+-Besides the training functionality the HC02.SIM is the remote controller of HC02.UAV. Thus, the well-known training environment bestows confidence.
+
+Key Features:
+- Rotor diameter: 7 m
+- Empty weight: 349 Kg with ERS
+- Max take-off weight: 600 Kg
+- Endurance: 3 hours
+- Cruise Speed: 94 KTAS
+- Vne: 110 KTAS
+- Rate of Climb: 1600 f/m
+- Power: 131 HP
+- Hower IGA/OGA: 2750/2250 feet

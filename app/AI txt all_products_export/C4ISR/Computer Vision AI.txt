@@ -1,0 +1,7 @@
+Kategória: C4ISR
+Termék: Computer Vision AI
+
+Our computer-vision AI identifies individuals and detects suspicious behavior by analyzing motion patterns as well as body dimensions and posture from standard video footage.
+
+Key Features:
+- Access-Control Reinforcement: flags tailgating and mismatched RFID/NFC card use

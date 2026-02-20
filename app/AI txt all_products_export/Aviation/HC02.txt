@@ -1,0 +1,21 @@
+Kategória: Aviation
+Termék: HC02
+
+HC02 is the most versatile two seated light weight helicopter with cutting edge engineering features, like electronic rescue system and high-efficient rotor system. Its unique mechanical design provides a cost-effective solution for several application fields, like:
+-Entry level/Basic flight training
+-Surveillance applications
+-Patrolling
+-Due to the lack of compromises not just the in its design, but in its handing is every pilot's dream. 
+-Excellent stability and reliability describe the HungaroCopter. Utilizing its class
+-best features within a single aircraft.
+
+Key Features:
+- Rotor diameter: 7 m
+- Empty weight: 349 Kg with ERS
+- Max takeoff weight: 600 Kg
+- Endurance: 3 hours
+- Cruise Speed: 94 KTAS
+- Vne: 110 KTAS
+- Rate of Climb: 1600 f/m
+- Power: 131 HP
+- Hower IGA/OGA: 2750/2250 feet

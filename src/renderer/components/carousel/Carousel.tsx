@@ -145,7 +145,7 @@ export default function Carousel() {
 
       {/* Caption */}
       {currentMedia && (
-        <div className="px-8 py-6 bg-bg-secondary">
+        <div className="px-8 py-2">
           <MediaCaption media={currentMedia} />
         </div>
       )}

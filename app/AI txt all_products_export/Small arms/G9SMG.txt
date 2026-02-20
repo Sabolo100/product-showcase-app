@@ -1,0 +1,23 @@
+Kategória: Small arms
+Termék: G9SMG
+
+The G9SMG submachine gun has both standard and short versions.
+-It fires the same ammunition as the pistol belonging to the handgun family (G9HSP), namely the 9x19 mm Parabellum cartridge and the magazine type is also the same (Glock).
+-It uses a lockless, freely recoiling blowback system.
+-The firing mechanism allows for both single-shot and fully automatic fire.
+-Its controls make it suitable for both right- and left-handed use.
+-The telescopic buttstock is adjustable, and for increased comfort, the folding direction can be changed by refitting some components.
+-It is equipped with a flash suppressor at the muzzle.
+-The firearm features four Picatinny rails, allowing for the attachment of various accessories and sights.
+
+Key Features:
+- Empty Weight: 3,1 kg/2,9 kg*
+- Full Length: 750 mm/700 mm*
+- Full Height: 190 mm
+- Full Width: 52 mm
+- Length of barrel: 254 mm (10”)/203,2 mm (8”)*
+- Caliber: 9x19 mm Parabelum
+- Shooting range: 100 m/80 m*
+- Rate of fire: 800 rounds/min
+- Magazine: 19-33-50 rounds (Glock type)
+- Operation: fully automatic, single-shot

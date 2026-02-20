@@ -1,0 +1,13 @@
+Kategória: Secure_comms_and_int
+Termék: AdCheck
+
+Everyone has a digital footprint, based on their activity on the Internet. AdCheck collects information on a person by mapping part of this footprint focusing on ads placed by the individual.
+
+However, AdCheck goes beyond regular OSINT as it can be used to build a trusted relationship with the target. Generally, the individuals placing the ads trust the neutrality of the individual contacting them.
+
+By referring to the ad, it is possible to meet the person, establish a personal linkage, and get to know their living conditions, social environment and dwelling place. In addition, there is a special opportunity when the target sells electronics (laptop, phone) or places ads for the purpose of buying rather than selling.
+
+AdCheck provides active help to reveal the target person's close environment and bring in specific expertise during follow up visits.
+
+Key Features:
+- Looking at the ads placed by the target or by closely related family and friends we will uncover a lot of information without raising suspicion. AdCheck helps us learn about assets, interests (e.g.: hunting, sailing, sport cars), or even favourite locations (e.g.: vacation house) and storage spaces (e.g.: garage, rented depository).

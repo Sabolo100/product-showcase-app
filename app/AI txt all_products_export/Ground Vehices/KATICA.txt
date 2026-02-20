@@ -1,0 +1,34 @@
+Kategória: Ground Vehices
+Termék: KATICA
+
+KATICA is a versatile unmanned ground vehicle (UGV) platform designed for modern operations.
+
+Its future ready architecture ensures long-term adaptability as mission needs evolve.
+
+The platform’s design strenghts are;
+-High payload carriage capacity - enables creating wide-ranging concepts
+-Modularity - provides rapid configuration for specific tasks
+-Scalability - multiple sizes/classes for diverse profiles
+-Adaptability – upgradeable ,future proof system
+-Key advantages of using KATICA;
+-Being a force multiplier by creating a bigger impact with a fewer personnel,
+-Enhancing soldier safety,
+-Mission effectiveness,
+-Comprehensive ILS,
+
+Key Features:
+- Configuration*: 6x6 wheeled chassis
+- Length x Width x Height: 3470x 2010x 1000 mm
+- Ground Clearance: >30cm
+- Weight: 2800kg
+- Maximum Payload Weight: up to1500kg
+- Top speed (flatsurface): 35km/h
+- (terrain): 20km/h
+- Power Unit*: Hybrid (diesel+ electric)
+- Range: up to35 km electrical+ 110km diesel
+- Endurance: 3-4 hours electrical + 5 hours diesel
+- Maximum Gradient: 60%
+- Maximum Side Slope: 30%
+- Fording Depth: ≤ 60 cm
+- Obstacle Climbing: ≤ 30 cm
+- Trench Crossing: ≤ 90 cm

@@ -1,0 +1,15 @@
+Kategória: C4ISR
+Termék: Cybersecurity training & consulting
+
+One of the bottlenecks in cybersecurity is the people involved. You can have safe, secure, tested devices, zones, countless policies and recommendations if the people operating the system are not prepared. We have a well-tested training agenda for all levels of preliminary qualification in various cybersecurity topics (see key features). 
+
+All of our courses consist of both theoretical foundations and practical exercises, supported by multiple instructors and teaching assistants to ensure effective learning.
+
+One of the trainings is specifically designed to defend cyber-physical systems (Otaku). It is a complex environment that models both the physical and digital elements of a manufacturing process, with built-in vulnerabilities. During the training, 2 teams compete against each other per table, the goal is to exploit vulnerabilities in the opponent’s system, penetrate their defenses, disable the PLC and with that, the whole factory. In the meantime, each team has to defend their own system. 
+-Expert can and should prepare for cybersecurity attacks – while it’s still a game.
+-If you need professional support beyond the training, you can also count on the experience of our experts in the form of consultations.
+
+Key Features:
+- Training topics: security awareness, malware analysis, digital forensics and incident response, offensive security training, cyber-physical system security, network security, applied cryptography
+- Levels: introduction – advanced – expert
+- Format: online, in person (even at client’s premises)

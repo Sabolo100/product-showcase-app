@@ -1,0 +1,19 @@
+Kategória: C4ISR
+Termék: Proxedo API Security
+
+Proxedo API Security offers full control over what can enter- or leave protected systems via Application Programming Interfaces. The widespread use of APIs in interconnected environments demand an easy-to-use solution to enforce security on these communication channels to prevent breaches and lateral movement of attackers between services.
+
+PAS has an intuitive GUI and Config API to enable security teams to quickly set-up or change security-, content-, encryption- and monitoring policies across all API Endpoints and Services.
+
+Using Deep Packet Inspection, Proxedo can see and interpret both header- and body contents of API payloads, allowing for full control over the traffic contents. With its granular controls, Dev-, Sec- and Ops Teams can set up Threat Prevention, Encryption, Monitoring, Audit logs, Debug, and Compliance Policy Enforcement on the go, without the need to change the backend of the service.
+-The Insight Tools of PAS enable these Teams to create custom log outputs for any purpose and log target, seamlessly integrating with SIEM, DLPS, Big Data and other Monitoring Tools.
+-PAS can enforce policies and generate logs independently from the protected backend, providing an immediate reaction to any newly found CVE or policy change, eliminating the need for development changes on the application, thus serving as a perfect solution to protect even Legacy- and Proprietary systems.
+-The Schema Enforcer supports both SOAP & REST schemas, to quickly deploy a tailored positive-security model that stands above the capabilities of any signature-based security, offering advanced protection against targeted attacks and zero-day threats.
+
+Key Features:
+- Hardware:: Hardware Agnostic Software, Options for Datacenter environment and Ruggedized casings available
+- Deployment options:: On-premise, Virtualization, Cloud, Kubernetes
+- Supported Protocols:: SOAP, REST
+- Logging &amp; Monitoring:: Custom log outputs, Deep Packet Inspection, Encryption offloading, Full payload logging
+- Encryption:: Enforce, Offload, Change cryptography, Log encrypted data
+- Threat Prevention:: Positive-security model API schema enforcement (SOAP: XML, XSD, WSDL – REST: Yaml, Json, OAS2.0 Swagger, OAS3.0, OAS3.1), Negative-security signature-based filtering, WAF, OWASP Malicious Input prevention

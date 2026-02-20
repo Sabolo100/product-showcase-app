@@ -1,0 +1,16 @@
+Kategória: C4ISR
+Termék: Bordercam-225
+
+The Bordercam is a mid-range electrooptical camera system. This unique system combines an advanced high-resolution uncooled continuous zoom thermal camera with a mid-range daylight camera on an accurate pan-tilt unit.
+-Independent continuous zoom thermal and colour cameras provide maximum situational awareness, user friendliness, and 24/7 threat assessment.
+-Ruggedized for harsh environments. The rugged design, certified to IP66, protects the camera against dusty, and other harsh or industrial environments.
+-TCP/IP interface, proprietary protocol.
+
+Key Features:
+- Parameters: Daylight camera
+- Sensor: Global shutter 2/3" CMOS
+- Resolution: 2464 × 2056
+- Frame rate: Max. 30 fps
+- Zoom: 20× optical + 12× digital
+- FoV: 38.6–2.05°
+- DRI (2.3 × 2.3 m NATO): Detection:30 000 mRecognition: 20 000 mIdentification: 10 000 m

@@ -1,0 +1,22 @@
+Kategória: Logistics
+Termék: Jumbo HX-IDS-HDC-SYS
+
+•	Built-in laser rangefinder
+•	Built-in cooled thermal camera
+•	Built-in visible colour camera
+•	Precision moving platform
+•	Remote control via LAN
+•	Advanced image processing functions
+•	GPS (optional)
+•	Digital magnetic compass (optional)
+•	Built-in gyro-stabilized platform (optional)
+
+Key Features:
+- Pan movement: n × 360°
+- Tilt movement: –45°–+10°
+- Wavelength: 1520 nm–1580 nm
+- Measurement range: 50 m–20 000 m
+- Resolution: 1280 × 720 pixel
+- Detection range: >29 000 m (2.3 m × 2.3 m)
+- Resolution: 1920 × 1080 pixel
+- Detection range: >29 000 m (2.3 m × 2.3 m)

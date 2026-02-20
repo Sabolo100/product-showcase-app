@@ -1,0 +1,26 @@
+Kategória: Aviation
+Termék: SC-200.UAS
+
+The base of the development project is the SC-200 model. The new SC-200.UAS type will be a versatile tool in the field which eliminates human risk and extends application area furthermore in critical operations.
+This model will be able to do the following:
+-do monitoring (e.g.: power lines, bridges, disaster sites),
+-LIDAR-mapping,
+-do real-time surveillance and patrolling,
+-carrying drones with optical wires
+-delivering special packages (fist-aid kit, food, equipment)
+-agricultural spraying and monitoring
+-do aerial cinematography in filmmaking
+-do search and rescue with thermal and high-res cameras.
+
+Key Features:
+- Empty weight: 298 kg
+- Rotor diameter: 8.4 m
+- Seats: 2
+- Maximum take-off weight: 560 kg
+- Maximum take of distance: 120 m
+- Climb rate: 3.5–7 m/s
+- Cruise speed: 140 km/h
+- Maximum speed: 165 km/h
+- Range: up to 5 hours/500 km (10 hours/1000 km with auxiliary tank)
+- Fuel: 95e petrol 60 litres (100 litres with auxiliary tank)
+- Dimensions: 8.4 m × 2 m × 2.75 m

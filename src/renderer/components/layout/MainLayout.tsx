@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState } from 'react'
 import TopBar from './TopBar'
 import BottomBar from './BottomBar'
 import PopupMenu from '../navigation/PopupMenu'
@@ -6,6 +6,7 @@ import MenuBreadcrumb from '../navigation/MenuBreadcrumb'
 import Carousel from '../carousel/Carousel'
 import AIPanel from '../ai/AIPanel'
 import IdleMode from '../ui/IdleMode'
+import { useAppStore } from '../../store/appStore'
 import { useAIStore } from '../../store/aiStore'
 import { useNavigationStore } from '../../store/navigationStore'
 import { useIdleTimer } from '../../hooks/useIdleTimer'
@@ -13,8 +14,9 @@ import { useTranslation } from 'react-i18next'
 
 export default function MainLayout() {
   const { t } = useTranslation()
+  const { companyInfo } = useAppStore()
   const { isPanelOpen, loadApiKeys } = useAIStore()
-  const { selectedProduct } = useNavigationStore()
+  const { selectedProduct, navigateToProduct, goHome, isMenuOpen, currentCategory } = useNavigationStore()
 
   // Idle mode state
   const [idleVideoPath, setIdleVideoPath] = useState<string | null>(null)
@@ -44,10 +46,16 @@ export default function MainLayout() {
     onActive: () => console.log('[Idle] User is active')
   })
 
-  // Handle dismiss idle mode
+  // Handle dismiss idle mode - navigate to company info carousel
   const handleDismissIdle = () => {
     console.log('[Idle] Dismissed by user')
     resetTimer()
+
+    // Navigate to company info (VEX) carousel when user touches the screen
+    if (companyInfo) {
+      goHome() // Reset navigation first
+      navigateToProduct(companyInfo) // Then show company info carousel
+    }
   }
 
   useEffect(() => {
@@ -79,14 +87,17 @@ export default function MainLayout() {
               {selectedProduct ? (
                 <Carousel />
               ) : (
-                <div className="w-full h-full flex items-center justify-center">
-                  <div className="text-center">
-                    <h1 className="text-4xl font-bold mb-4">{t('app.title')}</h1>
-                    <p className="text-text-secondary text-xl">
-                      Select a category from the menu below to get started
-                    </p>
+                /* Only show placeholder when no menu is open and no category is selected */
+                !isMenuOpen && !currentCategory && (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <div className="text-center">
+                      <h1 className="text-4xl font-bold mb-4">{t('app.title')}</h1>
+                      <p className="text-text-secondary text-xl">
+                        Select a category from the menu below to get started
+                      </p>
+                    </div>
                   </div>
-                </div>
+                )
               )}
             </div>
           </div>

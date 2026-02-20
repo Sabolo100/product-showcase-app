@@ -1,0 +1,22 @@
+Kategória: Small arms
+Termék: G308BR
+
+The G308BR battle rifle fires 7.62x51 mm NATO rifle ammunition.
+It uses a gas-operated, rotating bolt (with seven locking lugs), short-stroke gas piston system, equipped with a gas regulator.
+-The controls make it suitable for both right- and left-handed use.
+-The telescopic buttstock is adjustable, and for increased comfort, the folding direction can be changed by refitting some components.
+-The magazine is capable of holding 10 rounds, with the option for a larger magazine capacity.
+-Its firing mechanism allows for both single-shot and fully automatic fire.
+-The firearm features four Picatinny rails, allowing for the attachment of various accessories and sights.
+
+Key Features:
+- Empty Weight: 3,6 kg/3,3 kg*
+- Full Length: 1030 mm/930 mm*
+- Full Height: 190 mm
+- Full Width: 52mm
+- Length of barrel: 508 mm (20”)/406,3 mm (16”)*
+- Caliber: 7,62x51 mm NATO
+- Shooting range: 800 m/500 m*
+- Rate of fire: 700 rounds/min
+- Magazine: 10-20 rounds
+- Operation: fully automatic and single-shot

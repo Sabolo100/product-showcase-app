@@ -1,0 +1,11 @@
+Kategória: C4ISR
+Termék: IFP
+
+The ‘IFP’ Integrated Reconnaissance Platform is complex sensor system combined with aunique single mast solution for limitless operation. 
+
+The sensor system consists of a dual camera system with built in LRF and a Ground Surveillance Radar as well as a heavy-duty Levelling Unit for compensating the slope of the vehicle. 
+
+The entire platform is designed to withstand harsh environmental condition in the operational area without the need to dismount from the vehicle.
+
+Key Features:
+- The PGSR-3i Beagle Mk II. radar is mounted on the Levelling Unit with a special Rotator Unit which supports sectorial and continuous: 360-degree scanning.

@@ -1,0 +1,25 @@
+Kategória: Small arms
+Termék: C50 .50 BMG cal. self-loading rifle
+
+The C50 self-loading rifle is not just another anti-material weapon — it's the introduction of an entirely new class of military and law enforcement firepower. Compact, lightweight, and highly versatile, the C50 fuses the penetrative strength of a .50 BMG system with the agility and rapid deployment capabilities of a standard infantry rifle. Its unique bullpup design, advanced recoil system, and gas-free operation deliver sub-MOA precision, unmatched versatility, and unprecedented reliability at a fraction of the lifecycle and mission costs of comparable systems.
+Key Value Propositions:
+-Maximum safety during transport: when carried by the operator, the barrel is securely locked in the rear position by the barrel catch lever. A loaded magazine is inserted, but the chamber remains empty. By simply pressing the barrel catch lever, the barrel moves forward and chambers a round, making the weapon instantly combat-ready.
+-Multi-role Force Multiplier: Capable of replacing or supplementing DMRs, rocket systems, and anti-material rifles across roles like counter-sniper, CQB/FIBUA, vehicle interdiction, UAS defense, and more.
+-Available in two configurations: the C50 system offers mission-adaptable performance. The standard version provides extended range with an overall length of 1115 mm (extended) and 910 mm (retracted), weighing 8.3 kg. Meanwhile, the C50 Light reduces the overall length to 985 mm (extended) and 780 mm (retracted), with a weight of 7.6 kg, ensuring unmatched maneuverability in confined or rapid-response scenarios.
+-Lightweight & Agile: with its unique light weight, the C50 seamlessly fits into patrol units, UGVs, and remote weapon stations — enabling firepower without compromising mobility.
+-Modular, Customizable Design: Adjustable barrel lengths, integrated Picatinny rail system, and compatibility with existing optics and gear make it ideal for modern and future combat environments.
+-With rising demand for adaptable, cost-efficient, and tech-integrated systems, the C50 has the potential to disrupt a range of sectors, including anti-material and sniper rifle segments, law enforcement tactical units, counter-UAS defense systems, naval and boarding force applications, as well as UGV and robotic weapon integration.
+
+Key Features:
+- Caliber: 12,7 x 99 mm (12,7x108 and 14,5 mm have been successfully tested)
+- C50 Barrel length: 730 mm
+- C50 Light Barrel length: 600 mm
+- V0: 800 m/s (with standard ammunition out of a 730 mm barrel)
+- E0: 14000 (with standard ammunition out of a 730 mm barrel)
+- C50 Overall length: 1115 mm (barrel extended), 910 mm (barrel retracted)
+- C50 Light Overall length: 985 mm (barrel extended), 780 mm (barrel retracted)
+- Magazine capacity: 5
+- Height: 225 mm
+- Width: 90 mm
+- C50 Weight: 8300 g
+- C50 Light Weight: 7600 g

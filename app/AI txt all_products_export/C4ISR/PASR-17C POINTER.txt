@@ -1,0 +1,22 @@
+Kategória: C4ISR
+Termék: PASR-17C POINTER
+
+PASR-17c ‘Pointer’ is a short-to-middlerange Passive Coherent Locator (also known as passive radar) for air surveillance applications.
+
+As a passive radar, while detecting the moving targets, the radar utilises the existing radio frequency sources in the environment, instead of actively illuminating the surveillance area. The utilised illuminators, or so-called Illuminators of Opportunity (IoO) are typically broadcasting signals.
+-Since the radar has no RF emission itis able to operate fully covert without the need of frequency authorization.
+-Fully covert operation, low system and maintenance cost.
+-Easy integration with Command-and-Control Systems.
+
+Key Features:
+- Illuminators of Opportunity: DVB-T
+- Mini UAS: 8 km
+- Small UAS: 15 km
+- Medium UAS: 36 km
+- Helicopter: 48 km
+- Aircraft: 85 km
+- Detectable target velocity: ≥ 5 km/h
+- Track update rate: 0.1–1 sec
+- Azimuth coverage: 90°
+- Elevation coverage: 90°
+- Range resolution: 39 m

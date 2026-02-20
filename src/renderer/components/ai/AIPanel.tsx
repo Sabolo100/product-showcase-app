@@ -18,7 +18,6 @@ export default function AIPanel() {
     isLoading,
     setLoading,
     apiKeys,
-    provider,
     model,
     setModel
   } = useAIStore()
